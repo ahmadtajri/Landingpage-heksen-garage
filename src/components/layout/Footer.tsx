@@ -9,17 +9,20 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           {/* Brand */}
           <div className="md:col-span-1">
-            <Link href="/" className="mb-4 flex items-center gap-2 group">
+            <Link href="/" className="mb-4 flex items-center gap-4 group">
               <div className="relative">
                 <div className="absolute inset-0 bg-brand-orange/20 blur-lg rounded-full group-hover:opacity-100 opacity-0 transition-opacity"></div>
                 <Image
-                  src="/General Logo.jpeg"
+                  src="/New Logo.png"
                   alt="Hexen Garage Logo"
-                  width={60}
-                  height={60}
-                  className="h-16 w-auto relative group-hover:scale-105 transition-transform"
+                  width={70}
+                  height={70}
+                  className="h-20 w-auto relative group-hover:scale-105 transition-transform"
                 />
               </div>
+              <span className="text-lg font-bold uppercase tracking-wider text-brand-light">
+                Hexen <span className="text-brand-orange">Garage</span>
+              </span>
             </Link>
             <p className="mb-6 text-brand-muted">
               Spesialis body repair dan restorasi mobil profesional. Mengembalikan mobil bekas tabrakan menjadi presisi dan aman digunakan.

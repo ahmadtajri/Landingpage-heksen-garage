@@ -36,18 +36,21 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
   return (
     <nav className="sticky top-0 z-50 w-full border-b-2 border-brand-orange bg-brand-black/98 backdrop-blur supports-[backdrop-filter]:bg-brand-black/90 shadow-[0_4px_12px_rgba(255,136,0,0.15)]">
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           <div className="relative">
             <div className="absolute inset-0 bg-brand-orange/20 blur-lg rounded-full"></div>
             <Image
-              src="/General Logo.jpeg"
+              src="/New Logo.png"
               alt="Hexen Garage Logo"
-              width={60}
-              height={60}
-              className="h-14 w-auto relative"
+              width={72}
+              height={72}
+              className="h-18 w-auto relative"
               priority
             />
           </div>
+          <span className="text-xl font-bold uppercase tracking-wider text-brand-light">
+            Hexen <span className="text-brand-orange">Garage</span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}
