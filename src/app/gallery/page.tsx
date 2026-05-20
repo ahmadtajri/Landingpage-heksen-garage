@@ -25,6 +25,10 @@ export default function GalleryPage() {
             beforeImage="/car_damaged_before.png"
             afterImage="/car_restored_after.png"
           />
+          <BeforeAfterSlider
+            beforeImage="/Mustang_damage_before.png"
+            afterImage="/Mustang_damage_after.png"
+          />
           {/* More sliders can be added here */}
         </div>
       </Section>
