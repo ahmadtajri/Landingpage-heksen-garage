@@ -8,7 +8,7 @@ export function ContactButton() {
     <Button
       size="lg"
       className="w-full sm:w-auto text-lg gap-2"
-      onClick={() => window.open("https://wa.me/6281234567890", "_blank")}
+      onClick={() => window.open("https://wa.me/6281368682723", "_blank")}
     >
       <MessageCircle className="h-5 w-5" /> Chat via WhatsApp
     </Button>

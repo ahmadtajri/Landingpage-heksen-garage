@@ -98,12 +98,12 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-brand-orange shrink-0 mt-0.5" />
                 <span className="text-brand-muted">
-                  Jl. Otomotif Raya No. 123, Jakarta Selatan, Indonesia
+                  Jl. Lampiri Raya No.5A, RT.2/RW.12, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur 13450
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-brand-orange shrink-0" />
-                <span className="text-brand-muted">+62 812 3456 7890</span>
+                <span className="text-brand-muted">0813-6868-2723</span>
               </li>
             </ul>
           </div>

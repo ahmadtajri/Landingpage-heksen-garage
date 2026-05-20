@@ -3,15 +3,13 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ShieldCheck, Wrench, Sparkles, MessageCircle } from "lucide-react";
+import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
 import { ServiceCard } from "@/components/ui/ServiceCard";
 import { BeforeAfterSlider } from "@/components/features/BeforeAfterSlider";
 
 export default function Home() {
-  const handleConsultationClick = () => {
-    document.dispatchEvent(new CustomEvent("openConsultationForm"));
-  };
 
   return (
     <>
@@ -53,13 +51,17 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex flex-col items-center justify-center gap-4 sm:flex-row"
           >
-            <Button
-              size="lg"
-              className="w-full sm:w-auto text-lg gap-2"
-              onClick={handleConsultationClick}
+            <Link
+              href="/kontak"
+              className="flex items-center justify-center"
             >
-              <MessageCircle className="h-5 w-5" /> Konsultasi WhatsApp
-            </Button>
+              <Button
+                size="lg"
+                className="w-full sm:w-auto text-lg gap-2"
+              >
+                <MessageCircle className="h-5 w-5" /> Konsultasi WhatsApp
+              </Button>
+            </Link>
             <Button
               variant="outline"
               size="lg"

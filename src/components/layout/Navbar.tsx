@@ -4,34 +4,28 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X } from "lucide-react";
-import { Button } from "../ui/Button";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const navLinks = [
+const mainNavLinks = [
   { name: "Home", href: "/" },
-  { name: "Layanan", href: "/layanan" },
-  { name: "Gallery", href: "/gallery" },
-  { name: "Tentang Kami", href: "/tentang" },
-  { name: "Artikel", href: "/artikel" },
-  { name: "Kontak", href: "/kontak" },
+  { name: "Services", href: "/layanan" },
+  { name: "Contact", href: "/kontak" },
 ];
 
-interface NavbarProps {
-  onConsultationClick?: () => void;
-}
+const aboutDropdownLinks = [
+  { name: "About Us", href: "/tentang" },
+  { name: "Gallery", href: "/gallery" },
+  { name: "Articles", href: "/artikel" },
+];
 
-export function Navbar({ onConsultationClick }: NavbarProps = {}) {
+export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
   const pathname = usePathname();
 
-  const handleConsultationClick = () => {
-    if (onConsultationClick) {
-      onConsultationClick();
-    } else {
-      document.dispatchEvent(new CustomEvent("openConsultationForm"));
-    }
-  };
+  const isAboutActive = ["/tentang", "/gallery", "/artikel"].includes(pathname);
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b-2 border-brand-orange bg-brand-black/98 backdrop-blur supports-[backdrop-filter]:bg-brand-black/90 shadow-[0_4px_12px_rgba(255,136,0,0.15)]">
@@ -48,14 +42,15 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
               priority
             />
           </div>
-          <span className="text-xl font-bold uppercase tracking-wider text-brand-light">
-            Hexen <span className="text-brand-orange">Garage</span>
-          </span>
+          <div className="flex flex-col leading-tight">
+            <span className="text-xl font-bold uppercase tracking-wider text-brand-light">Hexen</span>
+            <span className="text-xl font-bold uppercase tracking-wider text-brand-orange">Garage</span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex md:items-center md:gap-8">
-          {navLinks.map((link) => (
+          {mainNavLinks.map((link) => (
             <Link
               key={link.name}
               href={link.href}
@@ -67,12 +62,44 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
               {link.name}
             </Link>
           ))}
-          <Button
-            variant="primary"
-            onClick={handleConsultationClick}
-          >
-            Konsultasi Gratis
-          </Button>
+
+          {/* About Dropdown */}
+          <div className="relative group">
+            <button
+              className={cn(
+                "text-sm font-semibold transition-all relative flex items-center gap-1 hover:text-brand-orange after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-brand-orange after:transition-all",
+                isAboutActive ? "text-brand-orange after:w-full" : "text-brand-light after:w-0 group-hover:after:w-full"
+              )}
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+            >
+              About
+              <ChevronDown className={cn("h-4 w-4 transition-transform", isDropdownOpen && "rotate-180")} />
+            </button>
+
+            {/* Dropdown Menu */}
+            <div
+              className={cn(
+                "absolute left-0 mt-0 w-48 rounded-md bg-brand-dark shadow-lg border border-brand-gray transition-all opacity-0 invisible group-hover:opacity-100 group-hover:visible pt-2",
+                isDropdownOpen && "opacity-100 visible"
+              )}
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+            >
+              {aboutDropdownLinks.map((link) => (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className={cn(
+                    "block px-4 py-2 text-sm font-medium transition-colors first:rounded-t-md last:rounded-b-md hover:bg-brand-orange/10",
+                    pathname === link.href ? "text-brand-orange bg-brand-orange/5" : "text-brand-light hover:text-brand-orange"
+                  )}
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Mobile Nav Toggle */}
@@ -88,7 +115,7 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
       {isOpen && (
         <div className="md:hidden border-t-2 border-brand-orange bg-brand-black p-4">
           <div className="flex flex-col space-y-4">
-            {navLinks.map((link) => (
+            {mainNavLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
@@ -101,13 +128,40 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
                 {link.name}
               </Link>
             ))}
-            <Button
-              variant="primary"
-              className="w-full mt-4"
-              onClick={handleConsultationClick}
-            >
-              Konsultasi Gratis
-            </Button>
+
+            {/* Mobile About Dropdown */}
+            <div>
+              <button
+                onClick={() => setIsMobileDropdownOpen(!isMobileDropdownOpen)}
+                className={cn(
+                  "w-full text-left text-lg font-semibold transition-colors flex items-center justify-between hover:text-brand-orange",
+                  isAboutActive ? "text-brand-orange" : "text-brand-light"
+                )}
+              >
+                About
+                <ChevronDown className={cn("h-4 w-4 transition-transform", isMobileDropdownOpen && "rotate-180")} />
+              </button>
+              {isMobileDropdownOpen && (
+                <div className="mt-2 ml-4 space-y-2 border-l-2 border-brand-orange/30 pl-4">
+                  {aboutDropdownLinks.map((link) => (
+                    <Link
+                      key={link.name}
+                      href={link.href}
+                      onClick={() => {
+                        setIsOpen(false);
+                        setIsMobileDropdownOpen(false);
+                      }}
+                      className={cn(
+                        "block text-base font-medium transition-colors hover:text-brand-orange",
+                        pathname === link.href ? "text-brand-orange" : "text-brand-light"
+                      )}
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}
