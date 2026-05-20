@@ -4,8 +4,8 @@ import { BeforeAfterSlider } from "@/components/features/BeforeAfterSlider";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gallery | Heksen Garage",
-  description: "Hasil sebelum dan sesudah perbaikan mobil bekas tabrak di Heksen Garage.",
+  title: "Gallery | Hexen Garage",
+  description: "Hasil sebelum dan sesudah perbaikan mobil bekas tabrak di Hexen Garage.",
 };
 
 export default function GalleryPage() {

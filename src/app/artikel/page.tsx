@@ -2,7 +2,7 @@ import { Section } from "@/components/ui/Section";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Artikel | Heksen Garage",
+  title: "Artikel | Hexen Garage",
   description: "Artikel dan tips seputar perawatan mobil, body repair, dan otomotif.",
 };
 

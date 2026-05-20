@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Heksen Garage | Spesialis Body Repair & Restorasi Mobil",
+  title: "Hexen Garage | Spesialis Body Repair & Restorasi Mobil",
   description: "Bengkel body repair dan restorasi mobil profesional. Spesialis perbaikan kendaraan akibat tabrakan dan kerusakan berat. Kembali presisi dan aman digunakan.",
   keywords: ["bengkel body repair", "body repair mobil", "chassis repair mobil", "restorasi mobil", "bengkel mobil tabrakan", "perbaikan mobil bekas tabrak"],
 };

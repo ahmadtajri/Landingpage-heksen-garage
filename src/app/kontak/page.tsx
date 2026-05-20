@@ -4,8 +4,8 @@ import { ContactButton } from "@/components/ContactButton";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kontak | Heksen Garage",
-  description: "Hubungi Heksen Garage untuk konsultasi dan estimasi perbaikan mobil Anda.",
+  title: "Kontak | Hexen Garage",
+  description: "Hubungi Hexen Garage untuk konsultasi dan estimasi perbaikan mobil Anda.",
 };
 
 export default function KontakPage() {
@@ -26,14 +26,14 @@ export default function KontakPage() {
             <h2 className="mb-6 text-2xl font-bold">Informasi Kontak</h2>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <MapPin className="h-6 w-6 text-brand-red shrink-0" />
+                <MapPin className="h-6 w-6 text-brand-orange shrink-0" />
                 <div>
                   <h3 className="font-semibold text-brand-light">Alamat Bengkel</h3>
                   <p className="text-brand-muted">Jl. Otomotif Raya No. 123, Jakarta Selatan, Indonesia</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <Phone className="h-6 w-6 text-brand-red shrink-0" />
+                <Phone className="h-6 w-6 text-brand-orange shrink-0" />
                 <div>
                   <h3 className="font-semibold text-brand-light">Telepon</h3>
                   <p className="text-brand-muted">+62 812 3456 7890</p>

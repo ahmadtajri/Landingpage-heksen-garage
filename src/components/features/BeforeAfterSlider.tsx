@@ -110,7 +110,7 @@ export function BeforeAfterSlider({
         className="absolute inset-y-0 z-20 flex w-1 items-center justify-center bg-white shadow-[0_0_10px_rgba(0,0,0,0.5)]"
         style={{ left: `${sliderPosition}%`, cursor: "ew-resize" }}
       >
-        <div className="flex h-10 w-10 -translate-x-1/2 items-center justify-center rounded-full bg-brand-red text-white shadow-lg transition-transform hover:scale-110">
+        <div className="flex h-10 w-10 -translate-x-1/2 items-center justify-center rounded-full bg-gradient-to-b from-brand-orange to-brand-red text-white shadow-lg transition-transform hover:scale-110">
           <GripVertical className="h-5 w-5" />
         </div>
       </div>

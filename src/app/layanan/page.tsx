@@ -5,8 +5,8 @@ import { ServiceCard } from "@/components/ui/ServiceCard";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Layanan | Heksen Garage",
-  description: "Layanan body repair, chassis repair, dan restorasi mobil di Heksen Garage.",
+  title: "Layanan | Hexen Garage",
+  description: "Layanan body repair, chassis repair, dan restorasi mobil di Hexen Garage.",
 };
 
 export default function LayananPage() {

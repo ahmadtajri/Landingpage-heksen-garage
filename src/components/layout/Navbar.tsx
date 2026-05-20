@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Wrench } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "../ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -33,13 +34,20 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
   };
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-brand-gray bg-brand-black/95 backdrop-blur supports-[backdrop-filter]:bg-brand-black/80">
+    <nav className="sticky top-0 z-50 w-full border-b-2 border-brand-orange bg-brand-black/98 backdrop-blur supports-[backdrop-filter]:bg-brand-black/90 shadow-[0_4px_12px_rgba(255,136,0,0.15)]">
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2">
-          <Wrench className="h-8 w-8 text-brand-red" />
-          <span className="text-xl font-bold uppercase tracking-wider text-brand-light">
-            Heksen <span className="text-brand-red">Garage</span>
-          </span>
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <div className="relative">
+            <div className="absolute inset-0 bg-brand-orange/20 blur-lg rounded-full"></div>
+            <Image
+              src="/General Logo.jpeg"
+              alt="Hexen Garage Logo"
+              width={60}
+              height={60}
+              className="h-14 w-auto relative"
+              priority
+            />
+          </div>
         </Link>
 
         {/* Desktop Nav */}
@@ -49,8 +57,8 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
               key={link.name}
               href={link.href}
               className={cn(
-                "text-sm font-medium transition-colors hover:text-brand-red",
-                pathname === link.href ? "text-brand-red" : "text-brand-light"
+                "text-sm font-semibold transition-all relative hover:text-brand-orange after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-brand-orange after:transition-all",
+                pathname === link.href ? "text-brand-orange after:w-full" : "text-brand-light after:w-0 hover:after:w-full"
               )}
             >
               {link.name}
@@ -75,7 +83,7 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
 
       {/* Mobile Nav Menu */}
       {isOpen && (
-        <div className="md:hidden border-t border-brand-gray bg-brand-black p-4">
+        <div className="md:hidden border-t-2 border-brand-orange bg-brand-black p-4">
           <div className="flex flex-col space-y-4">
             {navLinks.map((link) => (
               <Link
@@ -83,8 +91,8 @@ export function Navbar({ onConsultationClick }: NavbarProps = {}) {
                 href={link.href}
                 onClick={() => setIsOpen(false)}
                 className={cn(
-                  "text-lg font-medium transition-colors hover:text-brand-red",
-                  pathname === link.href ? "text-brand-red" : "text-brand-light"
+                  "text-lg font-semibold transition-colors hover:text-brand-orange",
+                  pathname === link.href ? "text-brand-orange" : "text-brand-light"
                 )}
               >
                 {link.name}

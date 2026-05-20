@@ -37,7 +37,7 @@ export default function Home() {
             className="mb-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
             Mobil Rusak Karena Kecelakaan? <br />
-            <span className="text-brand-red">Kami Kembalikan Seperti Baru.</span>
+            <span className="bg-gradient-to-r from-brand-red via-brand-orange to-brand-red bg-clip-text text-transparent animate-pulse">Kami Kembalikan Seperti Baru.</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -109,14 +109,14 @@ export default function Home() {
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Hasil Pekerjaan Kami</h2>
           <p className="mx-auto max-w-2xl text-brand-muted">
-            Bukti nyata transformasi kendaraan sebelum dan sesudah perbaikan di Heksen Garage.
+            Bukti nyata transformasi kendaraan sebelum dan sesudah perbaikan di Hexen Garage.
           </p>
         </div>
         <div className="mx-auto max-w-4xl">
           <BeforeAfterSlider
             beforeImage="/car_damaged_before.png"
             afterImage="/car_restored_after.png"
-            className="shadow-2xl shadow-brand-red/10"
+            className="shadow-2xl shadow-brand-orange/20"
           />
         </div>
         <div className="mt-10 text-center">

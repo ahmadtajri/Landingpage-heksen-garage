@@ -43,7 +43,7 @@ export function ConsultationForm({ isOpen, onClose }: ConsultationFormProps) {
     
     // Format pesan WhatsApp dengan data form
     const message = `
-*Konsultasi Kendaraan - Heksen Garage*
+*Konsultasi Kendaraan - Hexen Garage*
 
 *Data Kendaraan:*
 - Brand: ${formData.brand}
@@ -82,7 +82,7 @@ ${formData.description}
           {/* Close Button */}
           <button
             onClick={onClose}
-            className="absolute right-4 top-4 text-brand-muted hover:text-brand-red transition-colors"
+            className="absolute right-4 top-4 text-brand-muted hover:text-brand-orange transition-colors"
           >
             <X className="h-6 w-6" />
           </button>
@@ -109,7 +109,7 @@ ${formData.description}
                   className={cn(
                     "rounded border border-brand-gray bg-brand-black px-3 py-2",
                     "text-brand-light placeholder-brand-muted",
-                    "focus:border-brand-red focus:outline-none focus:ring-1 focus:ring-brand-red"
+                    "focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange"
                   )}
                   required
                 />
@@ -129,7 +129,7 @@ ${formData.description}
                   className={cn(
                     "rounded border border-brand-gray bg-brand-black px-3 py-2",
                     "text-brand-light placeholder-brand-muted",
-                    "focus:border-brand-red focus:outline-none focus:ring-1 focus:ring-brand-red"
+                    "focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange"
                   )}
                   required
                 />
@@ -149,7 +149,7 @@ ${formData.description}
                   className={cn(
                     "rounded border border-brand-gray bg-brand-black px-3 py-2",
                     "text-brand-light placeholder-brand-muted",
-                    "focus:border-brand-red focus:outline-none focus:ring-1 focus:ring-brand-red"
+                    "focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange"
                   )}
                   required
                 />
@@ -170,7 +170,7 @@ ${formData.description}
                   className={cn(
                     "rounded border border-brand-gray bg-brand-black px-3 py-2",
                     "text-brand-light placeholder-brand-muted",
-                    "focus:border-brand-red focus:outline-none focus:ring-1 focus:ring-brand-red"
+                    "focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange"
                   )}
                   required
                 >
@@ -197,8 +197,8 @@ ${formData.description}
                 className={cn(
                   "rounded border border-brand-gray bg-brand-black px-3 py-2",
                   "text-brand-muted cursor-pointer",
-                  "file:mr-3 file:bg-brand-red file:text-white file:border-0 file:px-3 file:py-1 file:rounded file:cursor-pointer",
-                  "focus:border-brand-red focus:outline-none focus:ring-1 focus:ring-brand-red"
+                  "file:mr-3 file:bg-brand-orange file:text-white file:border-0 file:px-3 file:py-1 file:rounded file:cursor-pointer",
+                  "focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange"
                 )}
               />
               {formData.photos && (
@@ -222,7 +222,7 @@ ${formData.description}
                 className={cn(
                   "rounded border border-brand-gray bg-brand-black px-3 py-2",
                   "text-brand-light placeholder-brand-muted resize-none",
-                  "focus:border-brand-red focus:outline-none focus:ring-1 focus:ring-brand-red"
+                  "focus:border-brand-orange focus:outline-none focus:ring-1 focus:ring-brand-orange"
                 )}
                 required
               />
@@ -233,9 +233,9 @@ ${formData.description}
               <button
                 type="submit"
                 className={cn(
-                  "flex-1 rounded-md bg-brand-red px-6 py-3 font-medium text-white",
-                  "transition-colors hover:bg-brand-red-hover",
-                  "focus:outline-none focus:ring-2 focus:ring-brand-red focus:ring-offset-2 focus:ring-offset-brand-dark"
+                  "flex-1 rounded-md bg-gradient-to-b from-brand-red to-brand-red-hover px-6 py-3 font-bold text-white",
+                  "transition-all hover:shadow-lg hover:scale-105",
+                  "focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 focus:ring-offset-brand-dark"
                 )}
               >
                 Kirim Konsultasi
@@ -244,9 +244,9 @@ ${formData.description}
                 type="button"
                 onClick={onClose}
                 className={cn(
-                  "rounded-md border border-brand-gray px-6 py-3 font-medium",
-                  "text-brand-light transition-colors hover:bg-brand-gray",
-                  "focus:outline-none focus:ring-2 focus:ring-brand-red focus:ring-offset-2 focus:ring-offset-brand-dark"
+                  "rounded-md border-2 border-brand-orange px-6 py-3 font-medium",
+                  "text-brand-orange transition-all hover:bg-brand-orange/10 hover:shadow-md",
+                  "focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 focus:ring-offset-brand-dark"
                 )}
               >
                 Batal
