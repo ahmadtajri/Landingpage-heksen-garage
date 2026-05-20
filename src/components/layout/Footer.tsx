@@ -67,7 +67,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-brand-orange shrink-0 mt-0.5" />
                 <span className="text-brand-muted">
-                  Jl. Lampiri Raya No.5A, RT.2/RW.12, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur 13450
+                  Jl. Lampiri Raya No. 5A Pondok Kelapa Duren Sawit Jakarta Timur 13450
                 </span>
               </li>
               <li className="flex items-center gap-3">

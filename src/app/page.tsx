@@ -80,7 +80,7 @@ export default function Home() {
       <Section className="bg-brand-dark">
         <div className="grid gap-12 md:grid-cols-2 items-center">
           <div>
-            <h2 className="mb-6 text-3xl font-bold md:text-4xl">Tentang Hexen Garage</h2>
+            <h2 className="mb-6 text-3xl font-bold md:text-4xl">Hexen Garage</h2>
             <p className="mb-6 text-lg text-brand-muted leading-relaxed">
               Hexen Garage adalah spesialis body repair dan restorasi mobil profesional di Jakarta Timur. Dengan pelayanan yang sama seperti dealer resmi namun dengan harga yang relatif bersahabat, Hexen Garage akan selalu memberikan yang terbaik untuk kepuasan pelanggan.
             </p>
