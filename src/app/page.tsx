@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ShieldCheck, Wrench, Sparkles, MessageCircle, Star } from "lucide-react";
+import { MessageCircle, Star } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* Services Section */}
+      {/* Services Section - Only 3 main services shown on home */}
       <Section id="services" className="bg-brand-black">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Layanan Unggulan Kami</h2>
@@ -114,38 +114,20 @@ export default function Home() {
           <ServiceCard
             title="Body Repair"
             description="Perbaikan body kendaraan akibat tabrakan, penyok, baret, dan kerusakan berat dengan teknik pengerjaan presisi tinggi."
-            icon={ShieldCheck}
-            href="/layanan"
+            image="/services/body-repair.png"
+            href="/layanan/body-repair"
           />
           <ServiceCard
             title="Chassis Repair"
             description="Perbaikan rangka atau chassis kendaraan yang bengkok agar kembali simetris, presisi, dan aman dikendarai."
-            icon={Wrench}
-            href="/layanan"
+            image="/services/chassis-repair.png"
+            href="/layanan/chassis-repair"
           />
           <ServiceCard
             title="Restorasi Kendaraan"
             description="Pemulihan kendaraan tua atau rusak parah menjadi kondisi optimal layaknya baru keluar dari dealer."
-            icon={Sparkles}
-            href="/layanan"
-          />
-          <ServiceCard
-            title="Pengecatan Oven"
-            description="Pengecatan berkualitas tinggi menggunakan teknologi oven untuk hasil yang sempurna dan tahan lama."
-            icon={ShieldCheck}
-            href="/layanan"
-          />
-          <ServiceCard
-            title="Detail & Finishing"
-            description="Pendetailan akhir untuk memastikan setiap aspek kendaraan Anda mencapai standar kualitas tertinggi."
-            icon={Sparkles}
-            href="/layanan"
-          />
-          <ServiceCard
-            title="Konsultasi Gratis"
-            description="Konsultasi gratis untuk menentukan jenis perbaikan yang tepat dan estimasi biaya yang akurat."
-            icon={MessageCircle}
-            href="/layanan"
+            image="/services/restorasi.png"
+            href="/layanan/restorasi"
           />
         </div>
         <div className="mt-12 text-center">

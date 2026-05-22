@@ -1,11 +1,15 @@
+"use client";
+
 import Link from "next/link";
-import { ArrowRight, type LucideIcon } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
 
 interface ServiceCardProps {
   title: string;
   description: string;
-  icon: LucideIcon;
+  image: string;
   href: string;
   className?: string;
 }
@@ -13,28 +17,43 @@ interface ServiceCardProps {
 export function ServiceCard({
   title,
   description,
-  icon: Icon,
+  image,
   href,
   className,
 }: ServiceCardProps) {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
       className={cn(
-        "group relative flex flex-col rounded-lg border border-brand-gray bg-brand-dark p-6 transition-all hover:border-brand-red/50 hover:bg-brand-gray/50",
+        "group relative flex flex-col rounded-xl border border-brand-gray bg-brand-dark overflow-hidden transition-all duration-300 hover:border-brand-red/50 hover:shadow-lg hover:shadow-brand-red/10 hover:-translate-y-1",
         className
       )}
     >
-      <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-brand-red/10 text-brand-red transition-colors group-hover:bg-brand-red group-hover:text-white">
-        <Icon className="h-6 w-6" />
+      {/* Image Section */}
+      <div className="relative h-52 w-full overflow-hidden">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-transparent opacity-60" />
       </div>
-      <h3 className="mb-2 text-xl font-bold text-brand-light">{title}</h3>
-      <p className="mb-6 flex-1 text-sm text-brand-muted">{description}</p>
-      <Link
-        href={href}
-        className="inline-flex items-center text-sm font-medium text-brand-red transition-colors hover:text-brand-red-hover"
-      >
-        Lihat Detail <ArrowRight className="ml-2 h-4 w-4" />
-      </Link>
-    </div>
+
+      {/* Content Section */}
+      <div className="flex flex-1 flex-col p-6">
+        <h3 className="mb-2 text-xl font-bold text-brand-light">{title}</h3>
+        <p className="mb-6 flex-1 text-sm text-brand-muted leading-relaxed">{description}</p>
+        <Link
+          href={href}
+          className="inline-flex items-center text-sm font-semibold text-brand-red transition-all duration-300 hover:text-brand-orange hover:gap-3 gap-2"
+        >
+          Lihat Detail <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+        </Link>
+      </div>
+    </motion.div>
   );
 }
