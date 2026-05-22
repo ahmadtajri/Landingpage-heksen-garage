@@ -3,82 +3,38 @@ import { MapPin, Phone } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="border-t-2 border-brand-orange bg-brand-black pt-16 pb-8 shadow-[0_-4px_12px_rgba(255,136,0,0.1)]">
+    <footer className="border-t-2 border-brand-orange bg-brand-black pt-12 pb-8 shadow-[0_-4px_12px_rgba(255,136,0,0.1)]">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          {/* Quick Links */}
-          <div className="md:col-span-1">
-            <h3 className="mb-4 text-lg font-semibold text-brand-light">Layanan</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/layanan" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Body Repair
-                </Link>
-              </li>
-              <li>
-                <Link href="/layanan" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Chassis Repair
-                </Link>
-              </li>
-              <li>
-                <Link href="/layanan" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Restorasi Kendaraan
-                </Link>
-              </li>
-              <li>
-                <Link href="/layanan" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Pengecatan Oven
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Perusahaan */}
-          <div className="md:col-span-1">
-            <h3 className="mb-4 text-lg font-semibold text-brand-light">Perusahaan</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/tentang" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Tentang Kami
-                </Link>
-              </li>
-              <li>
-                <Link href="/gallery" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Gallery Hasil
-                </Link>
-              </li>
-              <li>
-                <Link href="/artikel" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Artikel Tips
-                </Link>
-              </li>
-              <li>
-                <Link href="/kontak" className="text-brand-muted hover:text-brand-orange transition-colors">
-                  Hubungi Kami
-                </Link>
-              </li>
-            </ul>
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-8">
+          {/* Brand */}
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+            <h3 className="mb-4 text-2xl font-black text-brand-orange tracking-wider">HEXEN GARAGE</h3>
+            <p className="text-brand-muted max-w-sm">
+              Bengkel body repair, chassis repair, dan restorasi profesional dengan standar oven terbaik.
+            </p>
           </div>
 
           {/* Contact */}
-          <div className="md:col-span-1">
-            <h3 className="mb-4 text-lg font-semibold text-brand-light">Kontak</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-brand-orange shrink-0 mt-0.5" />
-                <span className="text-brand-muted">
-                  Jl. Lampiri Raya No. 5A Pondok Kelapa Duren Sawit Jakarta Timur 13450
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 text-brand-orange shrink-0" />
-                <span className="text-brand-muted">0813-6868-2723</span>
-              </li>
-            </ul>
+          <div className="flex flex-col items-center md:items-end">
+            <div className="w-full max-w-xs text-center md:text-left">
+              <h3 className="mb-4 text-lg font-semibold text-brand-light">Hubungi Kami</h3>
+              <ul className="space-y-4 text-brand-muted inline-block md:block">
+                <li className="flex items-start gap-3 text-left">
+                  <MapPin className="h-5 w-5 text-brand-orange shrink-0 mt-0.5" />
+                  <span>
+                    Jl. Lampiri Raya No. 5A Pondok Kelapa Duren Sawit Jakarta Timur 13450
+                  </span>
+                </li>
+                <li className="flex items-center gap-3 text-left">
+                  <Phone className="h-5 w-5 text-brand-orange shrink-0" />
+                  <span>0813-6868-2723</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col items-center justify-between border-t-2 border-brand-orange pt-8 md:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-between border-t-2 border-brand-orange pt-8 md:flex-row">
           <p className="text-sm text-brand-muted">
             &copy; {new Date().getFullYear()} Hexen Garage. All rights reserved.
           </p>
