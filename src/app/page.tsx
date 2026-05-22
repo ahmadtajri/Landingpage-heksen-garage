@@ -78,27 +78,79 @@ export default function Home() {
 
       {/* About Section */}
       <Section className="bg-brand-dark">
-        <div className="grid gap-12 md:grid-cols-2 items-center">
-          <div>
-            <h2 className="mb-6 text-3xl font-bold md:text-4xl">Hexen Garage</h2>
-            <p className="mb-6 text-lg text-brand-muted leading-relaxed">
-              Hexen Garage adalah spesialis body repair dan restorasi mobil profesional di Jakarta Timur. Dengan pelayanan yang sama seperti dealer resmi namun dengan harga yang relatif bersahabat, Hexen Garage akan selalu memberikan yang terbaik untuk kepuasan pelanggan.
-            </p>
-            <p className="mb-8 text-lg text-brand-muted leading-relaxed">
-              Kami berkomitmen untuk mengembalikan kendaraan Anda ke kondisi sempurna dengan teknisi berpengalaman dan peralatan modern.
-            </p>
-            <Link href="/tentang">
-              <Button variant="primary">Tentang Kami</Button>
-            </Link>
-          </div>
-          <div className="relative h-64 md:h-96 rounded-lg overflow-hidden">
-            <Image
-              src="/car_restored_after.png"
-              alt="About Hexen Garage"
-              fill
-              className="object-cover"
-            />
-          </div>
+        <div className="grid gap-8 md:grid-cols-2 items-start">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            className="space-y-6"
+          >
+            <div>
+              <h2 className="mb-4 text-3xl font-bold md:text-4xl bg-gradient-to-r from-brand-red to-brand-orange bg-clip-text text-transparent">
+                Bengkel Mobil Terdekat di Jakarta Timur
+              </h2>
+              <p className="text-lg text-brand-muted leading-relaxed">
+                Kami adalah pilihan utama bagi warga Jakarta Timur yang mencari bengkel profesional dengan standar kualitas tinggi.
+              </p>
+            </div>
+            <div className="pt-2">
+              <Link href="/tentang">
+                <Button variant="primary" size="lg">Tentang Kami</Button>
+              </Link>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="space-y-3"
+          >
+            <motion.div
+              whileHover={{ x: 8 }}
+              className="rounded-lg border border-brand-gray bg-brand-black/50 p-5 backdrop-blur transition-all hover:border-brand-orange"
+            >
+              <div className="flex gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-b from-brand-red to-brand-red-hover">
+                  <span className="text-sm font-bold text-white">✓</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-white">Sparepart Original & Berkualitas</p>
+                  <p className="text-sm text-brand-muted">Menggunakan sparepart asli dengan kualitas terjamin</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ x: 8 }}
+              className="rounded-lg border border-brand-gray bg-brand-black/50 p-5 backdrop-blur transition-all hover:border-brand-orange"
+            >
+              <div className="flex gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-b from-brand-red to-brand-red-hover">
+                  <span className="text-sm font-bold text-white">✓</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-white">Teknisi Berpengalaman</p>
+                  <p className="text-sm text-brand-muted">Tim profesional siap menangani semua jenis perbaikan</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ x: 8 }}
+              className="rounded-lg border border-brand-gray bg-brand-black/50 p-5 backdrop-blur transition-all hover:border-brand-orange"
+            >
+              <div className="flex gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-b from-brand-red to-brand-red-hover">
+                  <span className="text-sm font-bold text-white">✓</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-white">Harga Kompetitif</p>
+                  <p className="text-sm text-brand-muted">Kualitas dealer resmi dengan harga yang lebih bersahabat</p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
         </div>
       </Section>
 
