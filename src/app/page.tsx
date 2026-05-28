@@ -46,7 +46,7 @@ export default function Home() {
                 <Star className="mr-2 h-4 w-4 fill-brand-orange" />
                 Spesialis Restorasi & Body Repair Mobil
               </motion.div>
-              
+
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -90,8 +90,8 @@ export default function Home() {
                   Lihat Layanan
                 </Button>
               </motion.div>
-              
-              <motion.div 
+
+              <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 0.8 }}
@@ -126,13 +126,13 @@ export default function Home() {
               className="relative flex h-full min-h-[400px] lg:min-h-[500px] w-full items-center justify-center mt-12 lg:mt-0"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-red/20 to-brand-orange/20 rounded-full blur-[80px] z-0 animate-pulse pointer-events-none" style={{ animationDuration: '4s' }} />
-              
+
               {/* Floating Image Container */}
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -15, 0],
                 }}
-                transition={{ 
+                transition={{
                   duration: 6,
                   repeat: Infinity,
                   repeatType: "reverse",
@@ -150,7 +150,7 @@ export default function Home() {
                   />
                 </div>
               </motion.div>
-              
+
               {/* Glassmorphism Floating Badge */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -164,7 +164,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-bold text-white tracking-wide">Top Rated</p>
-                    <p className="text-xs text-brand-light">Bengkel Restorasi</p>
+                    <p className="text-xs text-brand-light">Bengkel Mobil</p>
                   </div>
                 </div>
               </motion.div>
@@ -221,10 +221,10 @@ export default function Home() {
               <Link href="/tentang">
                 <Button variant="primary" size="lg">Tentang Kami</Button>
               </Link>
-              <Button 
+              <Button
                 onClick={openForm}
-                variant="outline" 
-                size="lg" 
+                variant="outline"
+                size="lg"
                 className="w-full sm:w-auto gap-2"
               >
                 <Phone className="h-4 w-4" /> 0813-6868-2723
