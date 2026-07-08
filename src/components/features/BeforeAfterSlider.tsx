@@ -8,16 +8,19 @@ import { cn } from "@/lib/utils";
 interface BeforeAfterSliderProps {
   beforeImage: string;
   afterImage: string;
+  label?: string;
   className?: string;
 }
 
 export function BeforeAfterSlider({
   beforeImage,
   afterImage,
+  label,
   className,
 }: BeforeAfterSliderProps) {
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
+  const [hasInteracted, setHasInteracted] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const handleMove = (clientX: number) => {
@@ -26,6 +29,7 @@ export function BeforeAfterSlider({
     const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
     const percent = Math.max(0, Math.min((x / rect.width) * 100, 100));
     setSliderPosition(percent);
+    if (!hasInteracted) setHasInteracted(true);
   };
 
   const handleMouseUp = () => setIsDragging(false);
@@ -60,7 +64,7 @@ export function BeforeAfterSlider({
     <div
       ref={containerRef}
       className={cn(
-        "relative w-full aspect-video overflow-hidden rounded-xl bg-brand-gray select-none",
+        "relative w-full aspect-video overflow-hidden rounded-xl bg-brand-gray select-none group",
         className
       )}
       onMouseDown={(e) => {
@@ -76,14 +80,14 @@ export function BeforeAfterSlider({
       <div className="absolute inset-0 z-0">
         <Image
           src={afterImage}
-          alt="After"
+          alt={label ? `${label} - Sesudah` : "After"}
           fill
           className="object-cover"
-          sizes="(max-width: 768px) 100vw, 800px"
+          sizes="(max-width: 768px) 100vw, 900px"
           priority
         />
-        <div className="absolute bottom-4 right-4 z-10 rounded bg-brand-black/70 px-2 py-1 text-xs font-semibold text-white backdrop-blur">
-          Sesudah
+        <div className="absolute bottom-4 right-4 z-10 rounded-lg glass px-3 py-1.5 text-xs font-bold text-green-400 uppercase tracking-wider">
+          ✓ Sesudah
         </div>
       </div>
 
@@ -94,26 +98,40 @@ export function BeforeAfterSlider({
       >
         <Image
           src={beforeImage}
-          alt="Before"
+          alt={label ? `${label} - Sebelum` : "Before"}
           fill
           className="object-cover"
-          sizes="(max-width: 768px) 100vw, 800px"
+          sizes="(max-width: 768px) 100vw, 900px"
           priority
         />
-        <div className="absolute bottom-4 left-4 z-10 rounded bg-brand-black/70 px-2 py-1 text-xs font-semibold text-white backdrop-blur">
-          Sebelum
+        <div className="absolute bottom-4 left-4 z-10 rounded-lg glass px-3 py-1.5 text-xs font-bold text-brand-red uppercase tracking-wider">
+          ✗ Sebelum
         </div>
       </div>
 
       {/* Slider Handle */}
       <div
-        className="absolute inset-y-0 z-20 flex w-1 items-center justify-center bg-white shadow-[0_0_10px_rgba(0,0,0,0.5)]"
+        className="absolute inset-y-0 z-20 flex w-0.5 items-center justify-center bg-white/80 shadow-[0_0_15px_rgba(255,255,255,0.3)]"
         style={{ left: `${sliderPosition}%`, cursor: "ew-resize" }}
       >
-        <div className="flex h-10 w-10 -translate-x-1/2 items-center justify-center rounded-full bg-gradient-to-b from-brand-orange to-brand-red text-white shadow-lg transition-transform hover:scale-110">
+        <div
+          className={cn(
+            "flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-full bg-gradient-to-b from-brand-orange to-brand-red text-white shadow-[0_0_20px_rgba(255,136,0,0.4)] transition-all duration-300 hover:scale-110",
+            !hasInteracted && "animate-drag-hint"
+          )}
+        >
           <GripVertical className="h-5 w-5" />
         </div>
       </div>
+
+      {/* Drag Hint Overlay */}
+      {!hasInteracted && (
+        <div className="absolute inset-0 z-15 flex items-center justify-center pointer-events-none">
+          <div className="glass rounded-full px-4 py-2 text-xs font-semibold text-brand-light/80 animate-pulse">
+            ← Geser untuk membandingkan →
+          </div>
+        </div>
+      )}
     </div>
   );
 }

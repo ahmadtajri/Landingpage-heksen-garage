@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
+import { motion } from "framer-motion";
 import { Section } from "@/components/ui/Section";
 import { ServiceCard } from "@/components/ui/ServiceCard";
-import { motion } from "framer-motion";
+import { Wrench } from "lucide-react";
 
 const allServices = [
   {
@@ -50,30 +52,48 @@ const allServices = [
 ];
 
 export default function LayananPage() {
+
   return (
     <>
-      <Section className="bg-brand-dark pt-32 pb-16">
-        <div className="text-center">
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+      {/* Hero */}
+      <section className="relative min-h-[50vh] flex items-end overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/services/chassis-repair.png"
+            alt="Layanan Hexen Garage"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-brand-black/70 to-brand-black/30" />
+          <div className="grain-overlay" />
+        </div>
+        <div className="container relative z-10 mx-auto px-4 md:px-6 pb-12 pt-32">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="mb-4 text-4xl font-extrabold md:text-5xl"
           >
-            Semua Layanan Kami
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mx-auto max-w-2xl text-lg text-brand-muted"
-          >
-            Solusi perbaikan kendaraan komprehensif dengan standar kualitas tinggi.
-            Dari body repair hingga perbaikan kaki-kaki, kami siap melayani Anda.
-          </motion.p>
+            <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs text-brand-orange font-semibold uppercase tracking-widest mb-6">
+              <Wrench className="h-3.5 w-3.5" />
+              Layanan
+            </span>
+            <h1 className="text-4xl font-black md:text-6xl mb-4">
+              Semua <span className="gradient-text">Layanan</span> Kami
+            </h1>
+            <p className="max-w-xl text-lg text-brand-muted">
+              Solusi perbaikan kendaraan komprehensif dengan standar kualitas
+              tinggi. Dari body repair hingga perbaikan kaki-kaki, kami siap
+              melayani Anda.
+            </p>
+          </motion.div>
         </div>
-      </Section>
-      <Section className="bg-brand-black">
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Services Grid */}
+      <Section className="bg-brand-dark">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {allServices.map((service) => (
             <ServiceCard
@@ -89,3 +109,4 @@ export default function LayananPage() {
     </>
   );
 }
+
