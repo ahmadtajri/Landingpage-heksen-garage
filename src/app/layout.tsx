@@ -71,6 +71,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://heksen-garage.vercel.app",
   },
+  verification: {
+    google: "2pMBB9eVRdx9W2rYy8AnBGRZ1ZfQ28e91NjV6NWOKYM",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
