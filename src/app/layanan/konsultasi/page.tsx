@@ -26,7 +26,6 @@ export default function KonsultasiPage() {
         { src: "/car_damaged_before.png", caption: "Inspeksi kerusakan kendaraan pelanggan" },
         { src: "/car_restored_after.png", caption: "Hasil perbaikan setelah konsultasi tepat" },
       ]}
-      nextService={{ title: "Klaim Garansi", href: "/layanan/klaim-garansi" }}
     />
   );
 }

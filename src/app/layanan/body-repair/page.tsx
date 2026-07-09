@@ -27,7 +27,6 @@ export default function BodyRepairPage() {
         { src: "/Mustang_damage_before.png", caption: "Body repair Mustang - sebelum pengerjaan" },
         { src: "/Mustang_damage_after.png", caption: "Body repair Mustang - hasil akhir sempurna" },
       ]}
-      nextService={{ title: "Chassis Repair", href: "/layanan/chassis-repair" }}
     />
   );
 }

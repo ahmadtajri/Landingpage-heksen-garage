@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # Pentingnya Servis Berkala Mobil Untuk Mencegah Kerusakan Fatal
 
-![Ilustrasi Servis Mobil](https://loremflickr.com/800/400/car,service)
+![Servis Berkala Mobil](/blog/pentingnya-servis-berkala.png)
 
 Banyak pemilik mobil yang hanya pergi ke bengkel ketika kendaraan mereka sudah mengalami masalah. Padahal, paradigma perbaikan *break-fix* ini justru seringkali memakan biaya yang jauh lebih besar dibandingkan melakukan perawatan rutin. 
 

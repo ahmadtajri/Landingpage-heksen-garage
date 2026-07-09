@@ -27,7 +27,6 @@ export default function ChassisRepairPage() {
         { src: "/Mustang_damage_before.png", caption: "Proses pengecekan chassis sebelum perbaikan" },
         { src: "/Mustang_damage_after.png", caption: "Hasil chassis repair - geometri sempurna" },
       ]}
-      nextService={{ title: "Restorasi Kendaraan", href: "/layanan/restorasi" }}
     />
   );
 }

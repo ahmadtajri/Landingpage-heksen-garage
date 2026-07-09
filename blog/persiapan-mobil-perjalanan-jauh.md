@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # 10 Ceklist Persiapan Mobil Sebelum Perjalanan Jauh
 
-![Ilustrasi Mobil Perjalanan Jauh](https://loremflickr.com/800/400/car,roadtrip)
+![Persiapan Mobil Perjalanan Jauh](/blog/persiapan-mobil-perjalanan-jauh.png)
 
 Merencanakan perjalanan lintas kota untuk liburan atau mudik membutuhkan lebih dari sekadar membawa baju dan perbekalan. Mobil yang akan disiksa menempuh ratusan kilometer mutlak harus dalam kondisi puncak. Mogok di daerah terpencil atau di tengah jalan tol malam hari tentu akan merusak mood liburan Anda.
 

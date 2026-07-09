@@ -31,25 +31,6 @@ export function Footer() {
       {/* Decorative Gradient */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-brand-red/3 rounded-full blur-[200px] pointer-events-none" />
 
-      {/* Top CTA Strip */}
-      <div className="relative z-10 border-b border-white/5 bg-gradient-to-r from-brand-red/5 via-brand-orange/5 to-brand-red/5">
-        <div className="container mx-auto px-4 md:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            <p className="text-xl font-black text-white">
-              Siap Perbaiki <span className="gradient-text">Mobil Anda</span>?
-            </p>
-            <p className="text-sm text-brand-muted">Konsultasi gratis, tanpa biaya tambahan.</p>
-          </div>
-          <button
-            onClick={openForm}
-            className="flex items-center gap-2 rounded-lg bg-gradient-to-r from-brand-red to-brand-orange px-7 py-3.5 text-sm font-bold text-white shadow-[0_0_25px_rgba(255,136,0,0.25)] hover:shadow-[0_0_40px_rgba(255,136,0,0.45)] hover:scale-105 transition-all duration-300 shrink-0"
-          >
-            <MessageCircle className="h-4 w-4" />
-            Hubungi Sekarang
-          </button>
-        </div>
-      </div>
-
       {/* Main Footer Content */}
       <div className="container relative z-10 mx-auto px-4 md:px-6 pt-14 pb-8">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">

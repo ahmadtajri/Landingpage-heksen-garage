@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # 5 Tanda Kampas Rem Mobil Habis dan Harus Segera Diganti
 
-![Ilustrasi Kampas Rem](https://loremflickr.com/800/400/car,brakes)
+![Tanda Kampas Rem Habis](/blog/tanda-kampas-rem-habis.png)
 
 Sistem pengereman adalah komponen keselamatan paling vital pada sebuah kendaraan. Mengabaikan kondisi kampas rem bisa berakibat sangat fatal. Di **Heksen Garage**, kami selalu menekankan pentingnya mengecek kondisi rem setiap kali melakukan servis.
 

@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # 7 Penyebab AC Mobil Tidak Dingin dan Cara Mengatasinya
 
-![Ilustrasi AC Mobil](https://loremflickr.com/800/400/car,ac)
+![AC Mobil Tidak Dingin](/blog/penyebab-ac-mobil-tidak-dingin.png)
 
 Mengingat cuaca yang seringkali panas terik, AC mobil yang hanya menghembuskan angin hangat tentu sangat menyiksa. Di **Heksen Garage**, keluhan "AC tidak dingin" adalah salah satu masalah paling umum yang kami tangani.
 

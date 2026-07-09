@@ -26,7 +26,6 @@ export default function KlaimGaransiPage() {
         { src: "/Mustang_damage_after.png", caption: "Hasil pengerjaan bergaransi - kualitas terjamin" },
         { src: "/car_restored_after.png", caption: "Standar kualitas tinggi pada setiap pengerjaan" },
       ]}
-      nextService={{ title: "Perbaikan Kaki-Kaki", href: "/layanan/kaki-kaki" }}
     />
   );
 }

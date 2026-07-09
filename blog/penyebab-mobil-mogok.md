@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # 6 Penyebab Mobil Tiba-Tiba Mogok di Tengah Jalan
 
-![Ilustrasi Mobil Mogok](https://loremflickr.com/800/400/car,broken)
+![Mobil Mogok di Jalan](/blog/penyebab-mobil-mogok.png)
 
 Tidak ada yang lebih menjengkelkan sekaligus menakutkan dibandingkan mobil yang mendadak kehilangan tenaga dan mati (mogok) saat sedang melaju kencang. Kasus seperti ini biasanya disebabkan oleh malfungsi pada tiga sistem utama: kelistrikan, bahan bakar, atau kompresi mesin.
 

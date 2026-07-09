@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # Tips Memilih Oli Mesin yang Tepat untuk Mobil Kesayangan Anda
 
-![Ilustrasi Oli Mobil](https://loremflickr.com/800/400/car,oil)
+![Memilih Oli Mesin yang Tepat](/blog/tips-memilih-oli-mesin.png)
 
 Banyaknya merk dan spesifikasi oli mesin di pasaran seringkali membuat pemilik mobil bingung. Memilih oli yang salah tidak hanya menurunkan performa, tetapi juga bisa mempercepat keausan komponen internal mesin. 
 

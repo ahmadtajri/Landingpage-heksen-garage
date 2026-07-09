@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # Mitos vs Fakta Seputar Perawatan Mobil yang Sering Bikin Salah Kaprah
 
-![Ilustrasi Perawatan Mobil](https://loremflickr.com/800/400/car,mechanic)
+![Mitos vs Fakta Perawatan Mobil](/blog/mitos-fakta-perawatan-mobil.png)
 
 Dunia otomotif seringkali dibumbui oleh cerita turun-temurun yang belum tentu kebenarannya. Banyak pemilik mobil yang secara tidak sadar mengikuti kebiasaan keliru yang justru merugikan dompet dan kendaraannya. 
 

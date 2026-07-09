@@ -27,7 +27,6 @@ export default function KakiKakiPage() {
         { src: "/car_restored_after.png", caption: "Kendaraan siap jalan setelah perbaikan kaki-kaki" },
         { src: "/Mustang_damage_after.png", caption: "Hasil perbaikan kaki-kaki - stabil dan nyaman" },
       ]}
-      nextService={{ title: "Body Repair", href: "/layanan/body-repair" }}
     />
   );
 }

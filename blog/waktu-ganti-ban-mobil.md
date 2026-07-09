@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # Kapan Waktu yang Tepat untuk Mengganti Ban Mobil?
 
-![Ilustrasi Ban Mobil](https://loremflickr.com/800/400/car,tire)
+![Waktu Ganti Ban Mobil](/blog/waktu-ganti-ban-mobil.png)
 
 Ban adalah satu-satunya komponen mobil yang bersentuhan langsung dengan aspal. Traksi, pengereman, dan handling mobil 100% bergantung pada sepetak kecil karet ini. Ban yang aus tidak hanya mengurangi kenyamanan, tetapi sangat berbahaya karena rentan pecah dan selip saat hujan.
 

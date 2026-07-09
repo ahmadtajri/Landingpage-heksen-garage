@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # Cara Merawat Mesin Mobil Agar Tetap Prima
 
-![Ilustrasi Mesin Mobil](https://loremflickr.com/800/400/car,engine)
+![Cara Merawat Mesin Mobil](/blog/cara-merawat-mesin-mobil.png)
 
 Memiliki mobil yang selalu siap digunakan kapan saja dengan performa mesin yang prima adalah dambaan setiap pemilik kendaraan. Untuk mencapai kondisi tersebut, perawatan rutin sangatlah krusial. Di **Heksen Garage**, kami sering mendapati kerusakan parah yang sebenarnya bisa dicegah dengan perawatan sederhana.
 

@@ -10,7 +10,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Alamat",
-    lines: ["Jl. Lampiri Raya No.5A, RT.2/RW.12", "Pd. Klp., Duren Sawit, Jakarta Timur 13450"],
+    lines: ["Jl. Lampiri Raya No. 5A, Pondok Kelapa, Duren Sawit, Jakarta Timur 13450"],
   },
   {
     icon: Phone,

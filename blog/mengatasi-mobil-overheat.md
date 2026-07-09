@@ -8,7 +8,7 @@ author: "Heksen Garage"
 
 # Mobil Overheat di Jalan? Lakukan 5 Langkah Darurat Ini
 
-![Ilustrasi Mobil Overheat](https://loremflickr.com/800/400/car,radiator)
+![Mobil Overheat di Jalan](/blog/mengatasi-mobil-overheat.png)
 
 Jarum temperatur yang tiba-tiba menunjuk ke zona merah (H/Hot) adalah mimpi buruk bagi setiap pengemudi. Kondisi overheat bisa merusak mesin secara permanen jika dipaksakan jalan. 
 

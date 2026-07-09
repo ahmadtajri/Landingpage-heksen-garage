@@ -19,10 +19,6 @@ interface ServiceDetailProps {
   description: string[];
   features: string[];
   galleryImages: GalleryImage[];
-  nextService?: {
-    title: string;
-    href: string;
-  };
 }
 
 export function ServiceDetailLayout({
@@ -32,7 +28,6 @@ export function ServiceDetailLayout({
   description,
   features,
   galleryImages,
-  nextService,
 }: ServiceDetailProps) {
   const { openForm } = useConsultationForm();
 
@@ -216,15 +211,6 @@ export function ServiceDetailLayout({
               >
                 <MessageCircle className="h-5 w-5" /> Hubungi Kami
               </button>
-              {nextService && (
-                <Link
-                  href={nextService.href}
-                  className="inline-flex items-center justify-center gap-2 rounded-md font-bold transition-all border-2 border-brand-orange text-brand-orange hover:bg-brand-orange/10 hover:shadow-[0_6px_12px_rgba(255,136,0,0.3)] h-14 px-8 text-lg group"
-                >
-                  {nextService.title}
-                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Link>
-              )}
             </div>
           </div>
         </motion.div>
