@@ -420,7 +420,7 @@ export default function Home() {
             <ServiceCard
               title="Restorasi Kendaraan"
               description="Pemulihan kendaraan tua atau rusak parah menjadi kondisi optimal layaknya baru keluar dari dealer."
-              image="/services/restorasi.png"
+              image="/services/restorasi-new.png"
               href="/layanan/restorasi"
             />
           </div>

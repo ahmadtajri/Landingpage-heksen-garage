@@ -64,7 +64,7 @@ export default function TentangPage() {
       <section className="relative min-h-[55vh] flex items-end overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/services/restorasi.png"
+            src="/services/restorasi-new.png"
             alt="Hexen Garage Workshop"
             fill
             className="object-cover"

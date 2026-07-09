@@ -35,7 +35,7 @@ const galleryPairs = [
 const servicePhotos = [
   { src: "/services/body-repair.png", title: "Body Repair Workshop" },
   { src: "/services/chassis-repair.png", title: "Chassis Repair" },
-  { src: "/services/restorasi.png", title: "Restorasi Kendaraan" },
+  { src: "/services/restorasi-new.png", title: "Restorasi Kendaraan" },
   { src: "/services/kaki-kaki.png", title: "Perbaikan Kaki-Kaki" },
   { src: "/services/konsultasi.png", title: "Konsultasi Pelanggan" },
   { src: "/services/klaim-garansi.png", title: "Klaim Garansi" },
