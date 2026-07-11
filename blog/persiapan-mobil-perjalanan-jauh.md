@@ -1,9 +1,9 @@
----
+﻿---
 title: "10 Ceklist Persiapan Mobil Sebelum Perjalanan Jauh"
-description: "Pastikan mobil dalam kondisi prima sebelum bepergian jarak jauh atau mudik. Ikuti ceklist wajib dari Heksen Garage agar perjalanan aman dan nyaman."
-keywords: "persiapan perjalanan jauh, servis sebelum mudik, cek kondisi mobil, bengkel siaga, tips mudik aman, heksen garage"
+description: "Pastikan mobil dalam kondisi prima sebelum bepergian jarak jauh atau mudik. Ikuti ceklist wajib dari Hexen Garage agar perjalanan aman dan nyaman."
+keywords: "persiapan perjalanan jauh, servis sebelum mudik, cek kondisi mobil, bengkel siaga, tips mudik aman, hexen garage"
 date: "2026-05-22"
-author: "Heksen Garage"
+author: "Hexen Garage"
 ---
 
 # 10 Ceklist Persiapan Mobil Sebelum Perjalanan Jauh
@@ -12,7 +12,7 @@ author: "Heksen Garage"
 
 Merencanakan perjalanan lintas kota untuk liburan atau mudik membutuhkan lebih dari sekadar membawa baju dan perbekalan. Mobil yang akan disiksa menempuh ratusan kilometer mutlak harus dalam kondisi puncak. Mogok di daerah terpencil atau di tengah jalan tol malam hari tentu akan merusak mood liburan Anda.
 
-Berikut adalah ceklist pra-perjalanan (Pre-Trip Inspection) dari **Heksen Garage**:
+Berikut adalah ceklist pra-perjalanan (Pre-Trip Inspection) dari **Hexen Garage**:
 
 1. **Oli Mesin dan Filter Oli**: Periksa stik oli (dipstick). Jika volume kurang, oli tampak pekat, atau jadwal ganti oli sudah dekat, segera ganti dengan yang baru.
 2. **Air Radiator (Coolant)**: Pastikan air radiator di batas penuh dan reservoir tidak kosong. Jangan lupa cek kekencangan klem dan kondisi selang agar tidak ada kebocoran.
@@ -25,4 +25,4 @@ Berikut adalah ceklist pra-perjalanan (Pre-Trip Inspection) dari **Heksen Garage
 9. **Kondisi AC**: Perjalanan siang hari akan sangat tidak nyaman tanpa AC. Cek hembusan blower dan kesejukan udara.
 10. **Perlengkapan Darurat**: Bawa selalu dongkrak, kunci roda, segitiga pengaman, kotak P3K, kabel jumper, dan senter.
 
-Ingin perjalanan yang tenang tanpa khawatir mobil bermasalah? Booking jadwal General Check-up di **Heksen Garage** beberapa hari sebelum hari-H keberangkatan Anda!
+Ingin perjalanan yang tenang tanpa khawatir mobil bermasalah? Booking jadwal General Check-up di **Hexen Garage** beberapa hari sebelum hari-H keberangkatan Anda!

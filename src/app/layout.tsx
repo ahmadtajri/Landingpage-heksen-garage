@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+﻿import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://heksen-garage.vercel.app"),
+  metadataBase: new URL("https://hexen-garage.vercel.app"),
   title: {
     default: "Hexen Garage | Spesialis Body Repair & Restorasi Mobil Jakarta Timur",
     template: "%s | Hexen Garage",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://heksen-garage.vercel.app",
+    url: "https://hexen-garage.vercel.app",
     siteName: "Hexen Garage",
     title: "Hexen Garage | Spesialis Body Repair & Restorasi Mobil",
     description:
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://heksen-garage.vercel.app",
+    canonical: "https://hexen-garage.vercel.app",
   },
   verification: {
     google: "2pMBB9eVRdx9W2rYy8AnBGRZ1ZfQ28e91NjV6NWOKYM",

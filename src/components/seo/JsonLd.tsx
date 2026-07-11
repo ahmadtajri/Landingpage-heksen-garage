@@ -1,13 +1,13 @@
-export function JsonLd() {
+﻿export function JsonLd() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     name: "Hexen Garage",
     description:
       "Bengkel body repair dan restorasi mobil profesional di Jakarta Timur. Spesialis perbaikan kendaraan akibat tabrakan, chassis repair, kaki-kaki, dan kerusakan berat.",
-    url: "https://heksen-garage.vercel.app",
-    logo: "https://heksen-garage.vercel.app/New Logo.png",
-    image: "https://heksen-garage.vercel.app/New Logo.png",
+    url: "https://hexen-garage.vercel.app",
+    logo: "https://hexen-garage.vercel.app/New Logo.png",
+    image: "https://hexen-garage.vercel.app/New Logo.png",
     telephone: "+6281311734415",
     address: {
       "@type": "PostalAddress",

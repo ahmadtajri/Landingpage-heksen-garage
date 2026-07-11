@@ -1,9 +1,9 @@
----
+﻿---
 title: "Mitos vs Fakta Seputar Perawatan Mobil yang Sering Bikin Salah Kaprah"
-description: "Memanaskan mobil harus lama? Cek mitos dan fakta perawatan mobil yang perlu Anda ketahui agar tidak salah kaprah merawat kendaraan bersama Heksen Garage."
-keywords: "mitos otomotif, fakta perawatan mobil, memanaskan mesin, cara merawat mobil, tips otomotif, heksen garage"
+description: "Memanaskan mobil harus lama? Cek mitos dan fakta perawatan mobil yang perlu Anda ketahui agar tidak salah kaprah merawat kendaraan bersama Hexen Garage."
+keywords: "mitos otomotif, fakta perawatan mobil, memanaskan mesin, cara merawat mobil, tips otomotif, hexen garage"
 date: "2026-05-22"
-author: "Heksen Garage"
+author: "Hexen Garage"
 ---
 
 # Mitos vs Fakta Seputar Perawatan Mobil yang Sering Bikin Salah Kaprah
@@ -12,7 +12,7 @@ author: "Heksen Garage"
 
 Dunia otomotif seringkali dibumbui oleh cerita turun-temurun yang belum tentu kebenarannya. Banyak pemilik mobil yang secara tidak sadar mengikuti kebiasaan keliru yang justru merugikan dompet dan kendaraannya. 
 
-Mari kita bongkar beberapa mitos populer dan luruskan faktanya, persembahan dari bengkel spesialis Anda, **Heksen Garage**:
+Mari kita bongkar beberapa mitos populer dan luruskan faktanya, persembahan dari bengkel spesialis Anda, **Hexen Garage**:
 
 ## Mitos 1: Mobil Harus Dipanaskan 10-15 Menit di Pagi Hari
 **Fakta:** Ini hanya berlaku untuk mobil karburator keluaran tahun 90-an ke bawah. Mesin injeksi modern dilengkapi ECU yang mengatur suplai bahan bakar secara otomatis sesuai suhu. Memanaskan mesin cukup 1-2 menit agar sirkulasi oli merata, lalu kendarai dengan putaran mesin rendah di kilometer awal. Memanaskan terlalu lama hanya membuang bensin dan mencemari udara.
@@ -29,4 +29,4 @@ Mari kita bongkar beberapa mitos populer dan luruskan faktanya, persembahan dari
 ## Mitos 5: Mencuci Mesin dengan Air Bertekanan Tinggi (Steam) Itu Aman
 **Fakta:** Menyemprot ruang mesin mobil modern dengan air bertekanan tinggi sangat berisiko merusak sensor kelistrikan, ECU, dan koil. Cukup lap ruang mesin dengan cairan pembersih khusus (engine degreaser) menggunakan kuas atau kain microfiber.
 
-Punya pertanyaan lain atau mitos yang masih Anda ragukan? Datang dan konsultasikan langsung dengan mekanik handal di **Heksen Garage**. Kami siap memberikan edukasi perawatan terbaik untuk Anda!
+Punya pertanyaan lain atau mitos yang masih Anda ragukan? Datang dan konsultasikan langsung dengan mekanik handal di **Hexen Garage**. Kami siap memberikan edukasi perawatan terbaik untuk Anda!

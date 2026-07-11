@@ -1,9 +1,9 @@
----
+﻿---
 title: "Mobil Overheat di Jalan? Lakukan 5 Langkah Darurat Ini"
-description: "Panduan darurat saat temperatur mesin mobil naik atau overheat. Ketahui penyebab dan cara aman menanganinya sebelum dibawa ke bengkel Heksen Garage."
-keywords: "mobil overheat, mesin panas, air radiator habis, temperatur naik, cara mengatasi overheat, heksen garage"
+description: "Panduan darurat saat temperatur mesin mobil naik atau overheat. Ketahui penyebab dan cara aman menanganinya sebelum dibawa ke bengkel Hexen Garage."
+keywords: "mobil overheat, mesin panas, air radiator habis, temperatur naik, cara mengatasi overheat, hexen garage"
 date: "2026-05-22"
-author: "Heksen Garage"
+author: "Hexen Garage"
 ---
 
 # Mobil Overheat di Jalan? Lakukan 5 Langkah Darurat Ini
@@ -12,7 +12,7 @@ author: "Heksen Garage"
 
 Jarum temperatur yang tiba-tiba menunjuk ke zona merah (H/Hot) adalah mimpi buruk bagi setiap pengemudi. Kondisi overheat bisa merusak mesin secara permanen jika dipaksakan jalan. 
 
-Jika Anda mengalami ini di tengah jalan, tetap tenang dan lakukan 5 langkah darurat yang disarankan oleh **Heksen Garage** berikut:
+Jika Anda mengalami ini di tengah jalan, tetap tenang dan lakukan 5 langkah darurat yang disarankan oleh **Hexen Garage** berikut:
 
 ## 1. Segera Menepi dan Matikan Mesin
 Jangan paksakan mobil tetap melaju walau hanya 1 kilometer. Segera cari tempat aman di pinggir jalan, nyalakan lampu hazard, dan matikan mesin untuk menghentikan proses pembakaran yang menghasilkan panas.
@@ -32,4 +32,4 @@ Jika mesin sudah dingin dan aman disentuh, buka perlahan tutup radiator dengan b
 **Tindakan Lanjutan:**
 Setelah air terisi, coba nyalakan mesin. Jika jarum temperatur kembali normal, Anda bisa berjalan perlahan menuju bengkel terdekat. Jika jarum kembali naik atau mobil tidak bisa distarter, segera hubungi mobil derek.
 
-Mesin yang pernah overheat wajib diperiksa menyeluruh. Bawa kendaraan Anda ke **Heksen Garage** agar kami dapat mengecek kondisi *cylinder head*, paking (gasket), thermostat, dan radiator untuk mencegah kejadian serupa terulang kembali.
+Mesin yang pernah overheat wajib diperiksa menyeluruh. Bawa kendaraan Anda ke **Hexen Garage** agar kami dapat mengecek kondisi *cylinder head*, paking (gasket), thermostat, dan radiator untuk mencegah kejadian serupa terulang kembali.

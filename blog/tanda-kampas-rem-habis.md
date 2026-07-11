@@ -1,16 +1,16 @@
----
+﻿---
 title: "5 Tanda Kampas Rem Mobil Habis dan Harus Segera Diganti"
-description: "Kenali ciri-ciri dan tanda kampas rem mobil menipis atau habis. Jangan abaikan keselamatan Anda, segera cek dan ganti di Heksen Garage."
-keywords: "kampas rem mobil, tanda kampas rem habis, ganti kampas rem, bengkel rem mobil, keselamatan berkendara, heksen garage"
+description: "Kenali ciri-ciri dan tanda kampas rem mobil menipis atau habis. Jangan abaikan keselamatan Anda, segera cek dan ganti di Hexen Garage."
+keywords: "kampas rem mobil, tanda kampas rem habis, ganti kampas rem, bengkel rem mobil, keselamatan berkendara, hexen garage"
 date: "2026-05-22"
-author: "Heksen Garage"
+author: "Hexen Garage"
 ---
 
 # 5 Tanda Kampas Rem Mobil Habis dan Harus Segera Diganti
 
 ![Tanda Kampas Rem Habis](/blog/tanda-kampas-rem-habis.png)
 
-Sistem pengereman adalah komponen keselamatan paling vital pada sebuah kendaraan. Mengabaikan kondisi kampas rem bisa berakibat sangat fatal. Di **Heksen Garage**, kami selalu menekankan pentingnya mengecek kondisi rem setiap kali melakukan servis.
+Sistem pengereman adalah komponen keselamatan paling vital pada sebuah kendaraan. Mengabaikan kondisi kampas rem bisa berakibat sangat fatal. Di **Hexen Garage**, kami selalu menekankan pentingnya mengecek kondisi rem setiap kali melakukan servis.
 
 Berikut adalah 5 tanda bahwa kampas rem mobil Anda sudah habis atau tipis dan perlu segera diganti:
 
@@ -29,4 +29,4 @@ Jika saat menginjak rem di kecepatan tinggi Anda merasakan getaran pada pedal at
 ## 5. Indikator Rem di Dashboard Menyala
 Pada mobil-mobil modern, terdapat sensor yang akan mendeteksi ketebalan kampas rem. Jika lampu peringatan rem (biasanya simbol lingkaran tanda seru) menyala, segera periksakan ke bengkel.
 
-Jangan kompromi dengan keselamatan Anda! Jika Anda mengalami salah satu dari tanda-tanda di atas, segera bawa mobil Anda ke **Heksen Garage** untuk dilakukan pengecekan dan penggantian kampas rem dengan suku cadang berkualitas.
+Jangan kompromi dengan keselamatan Anda! Jika Anda mengalami salah satu dari tanda-tanda di atas, segera bawa mobil Anda ke **Hexen Garage** untuk dilakukan pengecekan dan penggantian kampas rem dengan suku cadang berkualitas.

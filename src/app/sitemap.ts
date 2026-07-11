@@ -1,7 +1,7 @@
-import { MetadataRoute } from "next";
+﻿import { MetadataRoute } from "next";
 import { getAllBlogs } from "@/lib/blog";
 
-const BASE_URL = "https://heksen-garage.vercel.app";
+const BASE_URL = "https://hexen-garage.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogs = getAllBlogs();

@@ -1,16 +1,16 @@
----
+﻿---
 title: "Cara Merawat Mesin Mobil Agar Tetap Prima"
-description: "Panduan lengkap cara merawat mesin mobil agar tetap awet, prima, dan hemat bahan bakar. Pelajari tips perawatan harian hingga servis berkala di Heksen Garage."
-keywords: "merawat mesin mobil, servis mobil, bengkel mobil, heksen garage, tips otomotif"
+description: "Panduan lengkap cara merawat mesin mobil agar tetap awet, prima, dan hemat bahan bakar. Pelajari tips perawatan harian hingga servis berkala di Hexen Garage."
+keywords: "merawat mesin mobil, servis mobil, bengkel mobil, hexen garage, tips otomotif"
 date: "2026-05-22"
-author: "Heksen Garage"
+author: "Hexen Garage"
 ---
 
 # Cara Merawat Mesin Mobil Agar Tetap Prima
 
 ![Cara Merawat Mesin Mobil](/blog/cara-merawat-mesin-mobil.png)
 
-Memiliki mobil yang selalu siap digunakan kapan saja dengan performa mesin yang prima adalah dambaan setiap pemilik kendaraan. Untuk mencapai kondisi tersebut, perawatan rutin sangatlah krusial. Di **Heksen Garage**, kami sering mendapati kerusakan parah yang sebenarnya bisa dicegah dengan perawatan sederhana.
+Memiliki mobil yang selalu siap digunakan kapan saja dengan performa mesin yang prima adalah dambaan setiap pemilik kendaraan. Untuk mencapai kondisi tersebut, perawatan rutin sangatlah krusial. Di **Hexen Garage**, kami sering mendapati kerusakan parah yang sebenarnya bisa dicegah dengan perawatan sederhana.
 
 Berikut adalah beberapa langkah esensial untuk merawat mesin mobil Anda:
 
@@ -27,4 +27,4 @@ Filter udara yang kotor akan menghambat aliran udara ke ruang bakar, menyebabkan
 Memanaskan mesin terlalu lama sudah tidak relevan dengan mobil modern. Cukup panaskan 1-3 menit sebelum jalan agar oli bersirkulasi sempurna.
 
 ## Kesimpulan
-Perawatan yang baik tidak hanya menghemat uang Anda dari kerusakan besar, tetapi juga menjaga nilai jual kendaraan. Jika Anda tidak yakin atau tidak memiliki waktu luang, bawa mobil Anda ke **Heksen Garage**. Teknisi berpengalaman kami siap memberikan perawatan terbaik untuk kendaraan Anda.
+Perawatan yang baik tidak hanya menghemat uang Anda dari kerusakan besar, tetapi juga menjaga nilai jual kendaraan. Jika Anda tidak yakin atau tidak memiliki waktu luang, bawa mobil Anda ke **Hexen Garage**. Teknisi berpengalaman kami siap memberikan perawatan terbaik untuk kendaraan Anda.

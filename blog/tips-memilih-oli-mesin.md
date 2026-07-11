@@ -1,9 +1,9 @@
----
+﻿---
 title: "Tips Memilih Oli Mesin yang Tepat untuk Mobil Kesayangan Anda"
 description: "Bingung memilih oli mesin? Panduan ini akan membantu Anda memilih kekentalan (SAE) dan jenis oli yang paling cocok untuk mobil Anda."
-keywords: "oli mesin mobil, cara memilih oli, oli sintetik, sae oli, bengkel ganti oli, heksen garage"
+keywords: "oli mesin mobil, cara memilih oli, oli sintetik, sae oli, bengkel ganti oli, hexen garage"
 date: "2026-05-22"
-author: "Heksen Garage"
+author: "Hexen Garage"
 ---
 
 # Tips Memilih Oli Mesin yang Tepat untuk Mobil Kesayangan Anda
@@ -12,7 +12,7 @@ author: "Heksen Garage"
 
 Banyaknya merk dan spesifikasi oli mesin di pasaran seringkali membuat pemilik mobil bingung. Memilih oli yang salah tidak hanya menurunkan performa, tetapi juga bisa mempercepat keausan komponen internal mesin. 
 
-Berikut adalah panduan sederhana dari **Heksen Garage** untuk membantu Anda memilih pelumas yang tepat:
+Berikut adalah panduan sederhana dari **Hexen Garage** untuk membantu Anda memilih pelumas yang tepat:
 
 ## 1. Perhatikan Tingkat Kekentalan (Viskositas / SAE)
 Di botol oli selalu tercetak kode SAE (Society of Automotive Engineers), contohnya **10W-40**, **5W-30**, atau **0W-20**. 
@@ -28,4 +28,4 @@ Di botol oli selalu tercetak kode SAE (Society of Automotive Engineers), contohn
 ## 3. Cek Sertifikasi API (American Petroleum Institute)
 Kode API menentukan kualitas dan peruntukan oli berdasarkan tahun pembuatan mesin. Untuk mobil bensin, kodenya diawali huruf 'S' (Spark), misalnya API SN, SP. Semakin mendekati huruf Z (seperti SP), teknologinya semakin mutakhir. Untuk diesel diawali huruf 'C' (Compression), seperti CJ-4.
 
-Masih bingung menentukan oli mana yang terbaik untuk karakter mengemudi dan tipe kendaraan Anda? Kunjungi **Heksen Garage**. Kami menyediakan berbagai varian oli berkualitas asli dan teknisi kami siap merekomendasikan yang paling pas untuk mobil Anda.
+Masih bingung menentukan oli mana yang terbaik untuk karakter mengemudi dan tipe kendaraan Anda? Kunjungi **Hexen Garage**. Kami menyediakan berbagai varian oli berkualitas asli dan teknisi kami siap merekomendasikan yang paling pas untuk mobil Anda.
