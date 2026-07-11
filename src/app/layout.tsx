@@ -1,4 +1,4 @@
-﻿import { Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     canonical: "https://hexen-garage.vercel.app",
   },
   verification: {
-    google: "2pMBB9eVRdx9W2rYy8AnBGRZ1ZfQ28e91NjV6NWOKYM",
+    google: "kJi_sE1ExDhjs0aW8ZXJUS5oZ3YxRzdYPEgrA5u4PwA",
   },
   icons: {
     icon: [
