@@ -22,10 +22,10 @@ export default function ChassisRepairPage() {
         "Garansi keamanan dan keselarasan kendaraan",
       ]}
       galleryImages={[
-        { src: "/car_damaged_before.png", caption: "Chassis rusak akibat tabrakan berat" },
-        { src: "/car_restored_after.png", caption: "Chassis telah diperbaiki - kembali presisi" },
-        { src: "/Mustang_damage_before.png", caption: "Proses pengecekan chassis sebelum perbaikan" },
-        { src: "/Mustang_damage_after.png", caption: "Hasil chassis repair - geometri sempurna" },
+        { src: "/Galery/Before/Raize-before.jpg", caption: "Chassis rusak akibat tabrakan berat" },
+        { src: "/Galery/After/Raize-after.jpg", caption: "Chassis telah diperbaiki - kembali presisi" },
+        { src: "/Galery/Before/Toyota-Veloz-before.jpg", caption: "Proses pengecekan chassis sebelum perbaikan" },
+        { src: "/Galery/After/Toyota-Veloz-after.jpg", caption: "Hasil chassis repair - geometri sempurna" },
       ]}
     />
   );

@@ -23,8 +23,8 @@ export default function KlaimGaransiPage() {
       ]}
       galleryImages={[
         { src: "/services/klaim-garansi.png", caption: "Pengecekan kualitas hasil pengerjaan" },
-        { src: "/Mustang_damage_after.png", caption: "Hasil pengerjaan bergaransi - kualitas terjamin" },
-        { src: "/car_restored_after.png", caption: "Standar kualitas tinggi pada setiap pengerjaan" },
+        { src: "/Galery/After/Raize-after.jpg", caption: "Hasil pengerjaan bergaransi - kualitas terjamin" },
+        { src: "/Galery/After/hyundai-palisade-after.jpg", caption: "Standar kualitas tinggi pada setiap pengerjaan" },
       ]}
     />
   );

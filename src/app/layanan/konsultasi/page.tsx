@@ -23,8 +23,8 @@ export default function KonsultasiPage() {
       ]}
       galleryImages={[
         { src: "/services/konsultasi.png", caption: "Konsultasi langsung dengan teknisi ahli" },
-        { src: "/car_damaged_before.png", caption: "Inspeksi kerusakan kendaraan pelanggan" },
-        { src: "/car_restored_after.png", caption: "Hasil perbaikan setelah konsultasi tepat" },
+        { src: "/Galery/Before/Toyota-Veloz-before.jpg", caption: "Inspeksi kerusakan kendaraan pelanggan" },
+        { src: "/Galery/After/Toyota-Veloz-after.jpg", caption: "Hasil perbaikan setelah konsultasi tepat" },
       ]}
     />
   );

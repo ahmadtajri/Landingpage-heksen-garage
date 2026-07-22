@@ -22,10 +22,10 @@ export default function BodyRepairPage() {
         "Garansi pengerjaan untuk kepuasan pelanggan",
       ]}
       galleryImages={[
-        { src: "/car_damaged_before.png", caption: "Kondisi sebelum body repair - kerusakan akibat tabrakan" },
-        { src: "/car_restored_after.png", caption: "Hasil setelah body repair - kembali seperti baru" },
-        { src: "/Mustang_damage_before.png", caption: "Body repair Mustang - sebelum pengerjaan" },
-        { src: "/Mustang_damage_after.png", caption: "Body repair Mustang - hasil akhir sempurna" },
+        { src: "/Galery/Before/Raize-before.jpg", caption: "Kondisi sebelum body repair - kerusakan akibat tabrakan" },
+        { src: "/Galery/After/Raize-after.jpg", caption: "Hasil setelah body repair - kembali seperti baru" },
+        { src: "/Galery/Before/hyundai-palisade-before.jpg", caption: "Body repair Hyundai Palisade - sebelum pengerjaan" },
+        { src: "/Galery/After/hyundai-palisade-after.jpg", caption: "Body repair Hyundai Palisade - hasil akhir sempurna" },
       ]}
     />
   );
