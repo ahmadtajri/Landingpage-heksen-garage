@@ -33,6 +33,17 @@ export async function generateMetadata({ params }: BlogPostProps) {
     title: `${blog.title} | Hexen Garage`,
     description: blog.description,
     keywords: blog.keywords,
+    alternates: {
+      canonical: `/artikel/${resolvedParams.slug}`,
+    },
+    openGraph: {
+      title: blog.title,
+      description: blog.description,
+      url: `/artikel/${resolvedParams.slug}`,
+      type: "article",
+      publishedTime: blog.date,
+      authors: [blog.author],
+    },
   };
 }
 

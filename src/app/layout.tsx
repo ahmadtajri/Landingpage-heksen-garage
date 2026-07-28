@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://hexen-garage.vercel.app",
+    canonical: "/",
   },
   verification: {
     google: "kJi_sE1ExDhjs0aW8ZXJUS5oZ3YxRzdYPEgrA5u4PwA",

@@ -7,6 +7,9 @@ import { ArrowRight, Calendar, User, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "Artikel | Hexen Garage",
   description: "Artikel dan tips seputar perawatan mobil, body repair, dan otomotif.",
+  alternates: {
+    canonical: "/artikel",
+  },
 };
 
 export default function ArtikelPage() {
