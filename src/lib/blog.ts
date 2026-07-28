@@ -63,6 +63,10 @@ export function getBlogBySlug(slug: string): BlogPost | null {
   const imageMatch = content.match(/!\[.*?\]\((.*?)\)/);
   const image = imageMatch ? imageMatch[1] : undefined;
 
+  // Remove the first H1 heading from content to avoid duplicate title
+  // (title is already displayed in the page header from frontmatter)
+  const cleanedContent = content.replace(/^\s*#\s+.+\n*/m, '');
+
   return {
     slug,
     title: data.title,
@@ -70,7 +74,7 @@ export function getBlogBySlug(slug: string): BlogPost | null {
     keywords: data.keywords,
     date: data.date,
     author: data.author,
-    content,
+    content: cleanedContent,
     image,
   };
 }
