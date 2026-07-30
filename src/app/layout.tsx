@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "Bengkel body repair dan restorasi mobil profesional di Jakarta Timur. Hasil presisi, bergaransi.",
     images: [
       {
-        url: "/New Logo.png",
+        url: "/new-logo.png",
         width: 1200,
         height: 630,
         alt: "Hexen Garage - Spesialis Body Repair & Restorasi Mobil",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Hexen Garage | Spesialis Body Repair & Restorasi Mobil",
     description:
       "Bengkel body repair dan restorasi mobil profesional di Jakarta Timur. Hasil presisi, bergaransi.",
-    images: ["/New Logo.png"],
+    images: ["/new-logo.png"],
   },
   robots: {
     index: true,

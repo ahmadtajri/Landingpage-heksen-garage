@@ -40,7 +40,7 @@ export function Footer() {
               <div className="relative shrink-0">
                 <div className="absolute inset-0 bg-brand-orange/15 blur-lg rounded-full group-hover:bg-brand-orange/30 transition-all duration-500" />
                 <Image
-                  src="/New Logo.png"
+                  src="/new-logo.png"
                   alt="Hexen Garage Logo"
                   width={56}
                   height={56}
