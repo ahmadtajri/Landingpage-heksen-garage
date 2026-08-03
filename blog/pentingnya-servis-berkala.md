@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Pentingnya Servis Berkala Mobil Untuk Mencegah Kerusakan Fatal"
 description: "Mengapa servis berkala sangat penting? Temukan alasan mengapa perawatan rutin dapat memperpanjang umur mobil dan menghemat biaya perbaikan di Hexen Garage."
 keywords: "servis berkala mobil, perawatan rutin, bengkel terpercaya, ganti oli rutin, tune up mobil, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # Pentingnya Servis Berkala Mobil Untuk Mencegah Kerusakan Fatal
 
-![Servis Berkala Mobil](/blog/pentingnya-servis-berkala.png)
+![Servis Berkala Mobil](/blog/pentingnya-servis-berkala.webp)
 
 Banyak pemilik mobil yang hanya pergi ke bengkel ketika kendaraan mereka sudah mengalami masalah. Padahal, paradigma perbaikan *break-fix* ini justru seringkali memakan biaya yang jauh lebih besar dibandingkan melakukan perawatan rutin. 
 

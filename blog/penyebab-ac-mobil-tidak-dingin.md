@@ -1,4 +1,4 @@
-﻿---
+---
 title: "7 Penyebab AC Mobil Tidak Dingin dan Cara Mengatasinya"
 description: "AC mobil panas atau hanya keluar angin? Ketahui berbagai penyebab utama AC mobil tidak dingin seperti freon habis atau kompresor rusak di Hexen Garage."
 keywords: "ac mobil tidak dingin, servis ac mobil, tambah freon, kompresor ac, evaporator bocor, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # 7 Penyebab AC Mobil Tidak Dingin dan Cara Mengatasinya
 
-![AC Mobil Tidak Dingin](/blog/penyebab-ac-mobil-tidak-dingin.png)
+![AC Mobil Tidak Dingin](/blog/penyebab-ac-mobil-tidak-dingin.webp)
 
 Mengingat cuaca yang seringkali panas terik, AC mobil yang hanya menghembuskan angin hangat tentu sangat menyiksa. Di **Hexen Garage**, keluhan "AC tidak dingin" adalah salah satu masalah paling umum yang kami tangani.
 

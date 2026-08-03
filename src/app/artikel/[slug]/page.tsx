@@ -43,6 +43,18 @@ export async function generateMetadata({ params }: BlogPostProps) {
       type: "article",
       publishedTime: blog.date,
       authors: [blog.author],
+      ...(blog.image
+        ? {
+            images: [
+              {
+                url: blog.image.startsWith("http")
+                  ? blog.image
+                  : `https://hexen-garage.vercel.app${blog.image}`,
+                alt: blog.title,
+              },
+            ],
+          }
+        : {}),
     },
   };
 }

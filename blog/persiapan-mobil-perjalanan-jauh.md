@@ -1,4 +1,4 @@
-﻿---
+---
 title: "10 Ceklist Persiapan Mobil Sebelum Perjalanan Jauh"
 description: "Pastikan mobil dalam kondisi prima sebelum bepergian jarak jauh atau mudik. Ikuti ceklist wajib dari Hexen Garage agar perjalanan aman dan nyaman."
 keywords: "persiapan perjalanan jauh, servis sebelum mudik, cek kondisi mobil, bengkel siaga, tips mudik aman, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # 10 Ceklist Persiapan Mobil Sebelum Perjalanan Jauh
 
-![Persiapan Mobil Perjalanan Jauh](/blog/persiapan-mobil-perjalanan-jauh.png)
+![Persiapan Mobil Perjalanan Jauh](/blog/persiapan-mobil-perjalanan-jauh.webp)
 
 Merencanakan perjalanan lintas kota untuk liburan atau mudik membutuhkan lebih dari sekadar membawa baju dan perbekalan. Mobil yang akan disiksa menempuh ratusan kilometer mutlak harus dalam kondisi puncak. Mogok di daerah terpencil atau di tengah jalan tol malam hari tentu akan merusak mood liburan Anda.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cara Merawat Mesin Mobil Agar Tetap Prima"
 description: "Panduan lengkap cara merawat mesin mobil agar tetap awet, prima, dan hemat bahan bakar. Pelajari tips perawatan harian hingga servis berkala di Hexen Garage."
 keywords: "merawat mesin mobil, servis mobil, bengkel mobil, hexen garage, tips otomotif"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # Cara Merawat Mesin Mobil Agar Tetap Prima
 
-![Cara Merawat Mesin Mobil](/blog/cara-merawat-mesin-mobil.png)
+![Cara Merawat Mesin Mobil](/blog/cara-merawat-mesin-mobil.webp)
 
 Memiliki mobil yang selalu siap digunakan kapan saja dengan performa mesin yang prima adalah dambaan setiap pemilik kendaraan. Untuk mencapai kondisi tersebut, perawatan rutin sangatlah krusial. Di **Hexen Garage**, kami sering mendapati kerusakan parah yang sebenarnya bisa dicegah dengan perawatan sederhana.
 

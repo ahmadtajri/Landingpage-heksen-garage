@@ -1,4 +1,4 @@
-﻿---
+---
 title: "5 Tanda Kampas Rem Mobil Habis dan Harus Segera Diganti"
 description: "Kenali ciri-ciri dan tanda kampas rem mobil menipis atau habis. Jangan abaikan keselamatan Anda, segera cek dan ganti di Hexen Garage."
 keywords: "kampas rem mobil, tanda kampas rem habis, ganti kampas rem, bengkel rem mobil, keselamatan berkendara, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # 5 Tanda Kampas Rem Mobil Habis dan Harus Segera Diganti
 
-![Tanda Kampas Rem Habis](/blog/tanda-kampas-rem-habis.png)
+![Tanda Kampas Rem Habis](/blog/tanda-kampas-rem-habis.webp)
 
 Sistem pengereman adalah komponen keselamatan paling vital pada sebuah kendaraan. Mengabaikan kondisi kampas rem bisa berakibat sangat fatal. Di **Hexen Garage**, kami selalu menekankan pentingnya mengecek kondisi rem setiap kali melakukan servis.
 

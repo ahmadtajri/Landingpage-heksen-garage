@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tips Memilih Oli Mesin yang Tepat untuk Mobil Kesayangan Anda"
 description: "Bingung memilih oli mesin? Panduan ini akan membantu Anda memilih kekentalan (SAE) dan jenis oli yang paling cocok untuk mobil Anda."
 keywords: "oli mesin mobil, cara memilih oli, oli sintetik, sae oli, bengkel ganti oli, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # Tips Memilih Oli Mesin yang Tepat untuk Mobil Kesayangan Anda
 
-![Memilih Oli Mesin yang Tepat](/blog/tips-memilih-oli-mesin.png)
+![Memilih Oli Mesin yang Tepat](/blog/tips-memilih-oli-mesin.webp)
 
 Banyaknya merk dan spesifikasi oli mesin di pasaran seringkali membuat pemilik mobil bingung. Memilih oli yang salah tidak hanya menurunkan performa, tetapi juga bisa mempercepat keausan komponen internal mesin. 
 

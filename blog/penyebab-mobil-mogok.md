@@ -1,4 +1,4 @@
-﻿---
+---
 title: "6 Penyebab Mobil Tiba-Tiba Mogok di Tengah Jalan"
 description: "Mesin mati mendadak? Cari tahu penyebab umum mobil mogok seperti masalah aki, alternator, atau sistem bahan bakar dan cara menghindarinya di Hexen Garage."
 keywords: "mobil mogok, aki soak, dinamo ampere, pompa bensin mati, mobil mati mendadak, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # 6 Penyebab Mobil Tiba-Tiba Mogok di Tengah Jalan
 
-![Mobil Mogok di Jalan](/blog/penyebab-mobil-mogok.png)
+![Mobil Mogok di Jalan](/blog/penyebab-mobil-mogok.webp)
 
 Tidak ada yang lebih menjengkelkan sekaligus menakutkan dibandingkan mobil yang mendadak kehilangan tenaga dan mati (mogok) saat sedang melaju kencang. Kasus seperti ini biasanya disebabkan oleh malfungsi pada tiga sistem utama: kelistrikan, bahan bakar, atau kompresi mesin.
 

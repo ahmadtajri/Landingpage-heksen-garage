@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Kapan Waktu yang Tepat untuk Mengganti Ban Mobil?"
 description: "Ketahui umur ideal ban mobil dan tanda-tanda keausan yang mengharuskan Anda segera mengganti ban demi keselamatan berkendara. Cek tips dari Hexen Garage."
 keywords: "ganti ban mobil, umur ban, ban aus, ban botak, indikator keausan ban, TWI ban, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # Kapan Waktu yang Tepat untuk Mengganti Ban Mobil?
 
-![Waktu Ganti Ban Mobil](/blog/waktu-ganti-ban-mobil.png)
+![Waktu Ganti Ban Mobil](/blog/waktu-ganti-ban-mobil.webp)
 
 Ban adalah satu-satunya komponen mobil yang bersentuhan langsung dengan aspal. Traksi, pengereman, dan handling mobil 100% bergantung pada sepetak kecil karet ini. Ban yang aus tidak hanya mengurangi kenyamanan, tetapi sangat berbahaya karena rentan pecah dan selip saat hujan.
 

@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {

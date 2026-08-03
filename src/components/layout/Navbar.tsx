@@ -62,6 +62,7 @@ export function Navbar() {
               height={64}
               className="relative w-12 h-auto transition-transform duration-300 group-hover:scale-110"
               priority
+              unoptimized
             />
           </div>
           <div className="flex flex-col leading-tight">

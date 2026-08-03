@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mobil Overheat di Jalan? Lakukan 5 Langkah Darurat Ini"
 description: "Panduan darurat saat temperatur mesin mobil naik atau overheat. Ketahui penyebab dan cara aman menanganinya sebelum dibawa ke bengkel Hexen Garage."
 keywords: "mobil overheat, mesin panas, air radiator habis, temperatur naik, cara mengatasi overheat, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # Mobil Overheat di Jalan? Lakukan 5 Langkah Darurat Ini
 
-![Mobil Overheat di Jalan](/blog/mengatasi-mobil-overheat.png)
+![Mobil Overheat di Jalan](/blog/mengatasi-mobil-overheat.webp)
 
 Jarum temperatur yang tiba-tiba menunjuk ke zona merah (H/Hot) adalah mimpi buruk bagi setiap pengemudi. Kondisi overheat bisa merusak mesin secara permanen jika dipaksakan jalan. 
 

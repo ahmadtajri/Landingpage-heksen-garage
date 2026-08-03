@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mitos vs Fakta Seputar Perawatan Mobil yang Sering Bikin Salah Kaprah"
 description: "Memanaskan mobil harus lama? Cek mitos dan fakta perawatan mobil yang perlu Anda ketahui agar tidak salah kaprah merawat kendaraan bersama Hexen Garage."
 keywords: "mitos otomotif, fakta perawatan mobil, memanaskan mesin, cara merawat mobil, tips otomotif, hexen garage"
@@ -8,7 +8,7 @@ author: "Hexen Garage"
 
 # Mitos vs Fakta Seputar Perawatan Mobil yang Sering Bikin Salah Kaprah
 
-![Mitos vs Fakta Perawatan Mobil](/blog/mitos-fakta-perawatan-mobil.png)
+![Mitos vs Fakta Perawatan Mobil](/blog/mitos-fakta-perawatan-mobil.webp)
 
 Dunia otomotif seringkali dibumbui oleh cerita turun-temurun yang belum tentu kebenarannya. Banyak pemilik mobil yang secara tidak sadar mengikuti kebiasaan keliru yang justru merugikan dompet dan kendaraannya. 
 
