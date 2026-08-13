@@ -56,13 +56,13 @@ export function Navbar() {
           <div className="relative shrink-0">
             <div className="absolute inset-0 bg-brand-orange/20 blur-lg rounded-full group-hover:bg-brand-orange/40 transition-all duration-500" />
             <Image
-              src="/new-logo.png"
+              src="/new-logo.webp"
               alt="Hexen Garage Logo"
-              width={64}
-              height={64}
+              width={48}
+              height={30}
               className="relative w-12 h-auto transition-transform duration-300 group-hover:scale-110"
               priority
-              unoptimized
+              sizes="48px"
             />
           </div>
           <div className="flex flex-col leading-tight">

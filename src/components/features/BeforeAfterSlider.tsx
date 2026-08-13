@@ -84,7 +84,7 @@ export function BeforeAfterSlider({
           fill
           className="object-cover"
           sizes="(max-width: 768px) 100vw, 900px"
-          priority
+          loading="lazy"
         />
         <div className="absolute bottom-4 right-4 z-10 rounded-lg glass px-3 py-1.5 text-xs font-bold text-green-400 uppercase tracking-wider">
           ✓ Sesudah
@@ -102,7 +102,7 @@ export function BeforeAfterSlider({
           fill
           className="object-cover"
           sizes="(max-width: 768px) 100vw, 900px"
-          priority
+          loading="lazy"
         />
         <div className="absolute bottom-4 left-4 z-10 rounded-lg glass px-3 py-1.5 text-xs font-bold text-brand-red uppercase tracking-wider">
           ✗ Sebelum

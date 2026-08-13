@@ -39,6 +39,7 @@ export function ServiceCard({
           alt={title}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-110"
+          sizes="(max-width: 768px) 100vw, 33vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
         {/* Shimmer effect on hover */}

@@ -40,12 +40,12 @@ export function Footer() {
               <div className="relative shrink-0">
                 <div className="absolute inset-0 bg-brand-orange/15 blur-lg rounded-full group-hover:bg-brand-orange/30 transition-all duration-500" />
                 <Image
-                  src="/new-logo.png"
+                  src="/new-logo.webp"
                   alt="Hexen Garage Logo"
-                  width={56}
-                  height={56}
+                  width={48}
+                  height={30}
                   className="relative w-12 h-auto transition-transform duration-300 group-hover:scale-110"
-                  unoptimized
+                  sizes="48px"
                 />
               </div>
               <div className="flex flex-col leading-tight">

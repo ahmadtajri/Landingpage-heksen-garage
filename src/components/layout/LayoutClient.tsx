@@ -1,8 +1,13 @@
 "use client";
 
 import { ReactNode } from "react";
+import dynamic from "next/dynamic";
 import { ConsultationProvider, useConsultationForm } from "@/context/ConsultationContext";
-import { ConsultationForm } from "@/components/ConsultationForm";
+
+const ConsultationForm = dynamic(
+  () => import("@/components/ConsultationForm").then((mod) => mod.ConsultationForm),
+  { ssr: false }
+);
 
 function FormWrapper() {
   const { isFormOpen, closeForm } = useConsultationForm();

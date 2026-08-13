@@ -61,14 +61,14 @@ body {
   50% { transform: translateY(-12px) rotate(2deg); }
 }
 
-@keyframes glow-pulse {
-  0%, 100% { box-shadow: 0 0 20px rgba(255, 136, 0, 0.2), 0 0 40px rgba(233, 30, 60, 0.1); }
-  50% { box-shadow: 0 0 40px rgba(255, 136, 0, 0.4), 0 0 80px rgba(233, 30, 60, 0.2); }
+@keyframes glow-pulse-opacity {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
 }
 
-@keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+@keyframes shimmer-slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
 }
 
 @keyframes grain {
@@ -104,11 +104,7 @@ body {
   to { opacity: 1; transform: scale(1); }
 }
 
-@keyframes text-gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+/* text-gradient-shift removed — static gradient for GPU performance */
 
 @keyframes border-glow {
   0%, 100% { border-color: rgba(255, 136, 0, 0.3); }
@@ -149,19 +145,36 @@ body {
 }
 
 .animate-glow-pulse {
-  animation: glow-pulse 3s ease-in-out infinite;
+  position: relative;
+}
+.animate-glow-pulse::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 40px rgba(255, 136, 0, 0.4), 0 0 80px rgba(233, 30, 60, 0.2);
+  opacity: 0;
+  animation: glow-pulse-opacity 3s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .animate-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.animate-shimmer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
-  background-size: 200% 100%;
-  animation: shimmer 3s ease-in-out infinite;
+  transform: translateX(-100%);
+  animation: shimmer-slide 3s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
 }
 
-.animate-text-gradient {
-  background-size: 200% 200%;
-  animation: text-gradient-shift 4s ease-in-out infinite;
-}
+/* .animate-text-gradient removed — static gradient for GPU performance */
 
 .animate-border-glow {
   animation: border-glow 3s ease-in-out infinite;
@@ -206,21 +219,33 @@ body {
 
 /* ── Gradient Text ── */
 .gradient-text {
-  background: linear-gradient(135deg, #e91e3c, #ff8800, #e91e3c);
-  background-size: 200% 200%;
+  background: linear-gradient(135deg, #e91e3c, #ff8800);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: text-gradient-shift 4s ease-in-out infinite;
 }
 
 /* ── Hover Card Tilt (CSS only fallback) ── */
 .hover-lift {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.hover-lift::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 136, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: -1;
 }
 .hover-lift:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 136, 0, 0.1);
+}
+.hover-lift:hover::before {
+  opacity: 1;
 }
 
 /* ── Stagger animation delay helpers ── */
@@ -270,6 +295,14 @@ body {
   height: 2px;
   background: #ff8800;
   border-radius: 50%;
-  box-shadow: 0 0 6px 2px rgba(255, 136, 0, 0.6);
   animation: float 3s ease-in-out infinite;
+  will-change: transform;
+}
+.spark::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  box-shadow: 0 0 6px 2px rgba(255, 136, 0, 0.6);
+  pointer-events: none;
 }

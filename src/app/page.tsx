@@ -20,11 +20,21 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
 import { ServiceCard } from "@/components/ui/ServiceCard";
-import { BeforeAfterSlider } from "@/components/features/BeforeAfterSlider";
 import { useConsultationForm } from "@/context/ConsultationContext";
+
+const BeforeAfterSlider = dynamic(
+  () => import("@/components/features/BeforeAfterSlider").then((mod) => mod.BeforeAfterSlider),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="w-full aspect-video rounded-xl bg-brand-gray animate-pulse" />
+    ),
+  }
+);
 
 const WA_NUMBER = "6281368682723";
 
@@ -71,12 +81,14 @@ export default function Home() {
         {/* Background Image */}
         <motion.div style={{ y: heroY }} className="absolute inset-0 z-0">
           <Image
-            src="/Home/Hero-car.png"
+            src="/Home/Hero-car.webp"
             alt="Hexen Garage Hero"
             fill
             className="object-cover object-center"
             priority
-            quality={90}
+            fetchPriority="high"
+            sizes="100vw"
+            quality={75}
           />
           {/* Dark Gradient Overlays */}
           <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/80 to-transparent" />
@@ -269,6 +281,8 @@ export default function Home() {
                 width={700}
                 height={500}
                 className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent" />
               {/* Floating Badge */}
